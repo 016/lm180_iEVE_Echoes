@@ -26,7 +26,7 @@ const messages =  {
     id: 'ID',
 
     costCurrency: 'ISK',
-    costCharge: '<span>At present, only invited users can join the test phase, the price of publishing information is extremely low and it will be restored after the test. Each invited account is gifted with ISK for testing.</span><br/><span>In order to prevent spam, a certain amount of account balance will be deducted for message posted, and it cannot be posted if the balance is insufficient</span><br/><span>[NOT START]Recharge method: send ISK via contract to ieve in the game, add `ieve-Your ieve website account Name`(for me it\'s ieve-DP, your registered account name on the ieve website is very important!!!) in desc part, will recharge the account after received the contract</span><br/><span>It is forbidden to post politics, insults/attack others, RMT and other content, we will delete it and ISK will not be refunded, if the circumstances are serious, direct account recharge will not be refunded</span>',
+    costCharge: '<span>Currently, the test phase is by invitation only. The cost of publishing information is set to an extremely low amount and it will be restored to normal afterwards. Invited accounts are gifted some ISK for the testing purpose.</span><br/><span>In order to prevent spams, a certain amount of ISK will be charged for the message posted, and it cannot be posted if the balance is insufficient</span><br/><span>[NOT IMPLEMENTED YET]Recharge method: send ISK via contract to ieve in the game, add `ieve-Your ieve website account Name`(for me it\'s ieve-DP, your registered account name on the ieve website is very important!!!) in desc part, will recharge the account after received the contract</span><br/><span>It is prohibited to post politics, personal insults, RMT and other inappropriate content. Such post will be deleted without refund. Future violation will lead to account ban without refund.</span>',
 
     newElement:{
       title: 'Title',
@@ -119,7 +119,7 @@ const messages =  {
       drone: 'Drone Slot',
 
 
-      rig_p: 'Combat Rgis',
+      rig_p: 'Combat Rigs',
       rig_m: 'Engineering Rigs',
     },
 
@@ -136,7 +136,7 @@ const messages =  {
         yl: 'Large Torpedo Launcher',
       },
       hunhe: {
-        title: 'Hybrid Turrets',
+        title: 'Railguns'',
         cigui:{
           s: 'Small Rifled Railgun',
           m: 'Medium Rifled Railgun',
@@ -358,16 +358,16 @@ const messages =  {
         sskz:'Damage Control',
       },
       tjqgl: {
-        title: 'Propulsion Upgrade',
+        title: 'Thruster Upgrade',
         gxwd:'Inertial Stabilizer',
         yqwd:'Warp Core Stabilizer',
       },
       jlrs: {
-        title: 'Small Afterburner',
-        s: 'Small Small Afterburner',
-        m: 'Medium Small Afterburner',
-        l: 'Large Small Afterburner',
-        xl: 'Extra Large Small Afterburner',
+        title: 'Afterburner',
+        s: 'Small Afterburner',
+        m: 'Medium Afterburner',
+        l: 'Large Afterburner',
+        xl: 'Extra Large Afterburner',
       },
       wxyqtj: {
         title: 'Microwarpdrive',
@@ -408,7 +408,7 @@ const messages =  {
       },
       fyzq:{
         title: 'Defense Rig',
-        hd: 'Shield  Rig',
+        hd: 'Shield Rig',
         zj: 'Armor Rig',
         jg: 'Structure Rig',
       },
@@ -416,16 +416,16 @@ const messages =  {
 
     rig_m: {
       navigate:{
-        title: 'Navigate Rig',
+        title: 'Navigation Rig',
       },
       gongcheng:{
-        title: 'Engine Rig',
+        title: 'Engineering Rig',
       },
       electoric:{
-        title: 'Electoric Rig',
+        title: 'Electronic Rig',
       },
       industry:{
-        title: 'Industry Rig',
+        title: 'Industrial Rig',
       },
     },
 
@@ -656,7 +656,7 @@ const messages =  {
 
 
       e_volumn: 'Volume',
-      e_powerCost: 'Powergride',
+      e_powerCost: 'Powergrid',
       e_gjCost: 'Activation Cost',
       e_damageRate: 'Damage Rate',
       e_runTime: 'Duration',
@@ -880,7 +880,7 @@ const messages =  {
     },
     price:{
       title: 'Price',
-      subTitle: 'Money you need pay for your plan',
+      subTitle: 'Money you need to pay for your plan',
 
     },
     devPlan:{
@@ -891,7 +891,7 @@ const messages =  {
 
     login:{
       title: 'Sign in to start your session',
-      signupSuccess: '<h4><i class="icon fa fa-check"></i> Singup Success</h4> Please login with your new account.',
+      signupSuccess: '<h4><i class="icon fa fa-check"></i> Sign up Success</h4> Please login with your new account.',
       resetPassSuccess: '<h4><i class="icon fa fa-check"></i> Reset Password Success</h4> Please login with your new password.',
       loginExpired: '<h4><i class="icon fa fa-check"></i> Login Info Expired</h4> Please re-login.',
       username: 'Username',
@@ -969,7 +969,7 @@ const messages =  {
       ore: 'Ore Calculator',
       oreMix: 'Mix Ore Calculator',
       vesselDebris: 'Vessel Debris Calculator',
-      slavagedMaterials: 'Slavaged Material Search',
+      slavagedMaterials: 'Salvaged Material Search',
       rig: 'Rig Build Calculator',
       shipConfig: 'Ship Config',
 
@@ -1019,15 +1019,15 @@ const messages =  {
 
     materialView:{
       title: 'Today\'s Material Price',
-      subTitle: 'Here is the list of all basic materials\' price, this price will used in each Calculators',
+      subTitle: 'Here is the list of all basic materials\' price, this price will used in each calculator',
       usageTitle: 'Special Info',
-      usageBody: '<ul><li>The price format like 999 / 20000, the 999 is market price(in passed one week), the 20000 is system price</li><li>The market price will a little highher price, so that you can easy buy with this price from market</li><li>If the price is not correct for you, just change it in the Calculator</li><li>It\'s a personal project all data is manually entered, so if you find anything wrong, just report a bug, bug report link in the bottom footer, thx.</li></ul>',
+      usageBody: '<ul><li>The price format like 999 / 20000, the 999 is market price(over the past week), the 20000 is system price</li><li>The market price will be a little higher, so that you can easily buy with this price from market</li><li>If the price is not correct for you, just change it in the Calculator</li><li>It\'s a personal project all data is manually entered, so if you find anything wrong, just report a bug. The bug report link is in the bottom footer, thx.</li></ul>',
 
       typeTitle:{
         t0: 'Ore',
         t1: 'Miner',
         t2: 'Planetary',
-        t3: 'Slavaged Material',
+        t3: 'Salvaged Material',
         t11: 'Debris',
         t21: 'Datacore',
       },
@@ -1052,9 +1052,9 @@ const messages =  {
 
     shipView:{
       title: 'Build Calculator',
-      subTitle: 'Check all kind build elements here, can also know how many are missing.',
+      subTitle: 'Check all kind build elements here. Find out how many are missing.',
       usageTitle: 'Usage',
-      usageBody: '<ul><li>We supported 4 types now, try to switch it!</li><li>FYI, you can only building the Item that Tech Level is enough, so check your Tech Level frist!!!</li><li>Select an item and set correct "Build Count", "Material Efficiency", "Time Efficiency", in the "Result" section will show need material list</li><li>Type in already have Material Count in "In Hand", will get "Still Need" Material Count</li><li>We used last week\'s average price for price calcualte, one more thing the sum price for still need only include still need item, if you don\'t need this item, the price will be 0 in calculate</li><li>"Ore Calculator" is a quick way find Ore Count for still need Material, try set correct "Ore Efficiency"</li><li>It\'s a personal project all data is manually entered, so if you find anything wrong, just report a bug, bug report link in the bottom footer, thx.</li><li><a href="https://www.bilibili.com/video/av80449531/" target="_blank">Operate Video in Chinese</a></li></ul>',
+      usageBody: '<ul><li>We support 4 types now, try switching them!</li><li>FYI, you can only build items with the required Tech Level, so check your Tech Level first!!!</li><li>Select an item and set correct "Build Count", "Material Efficiency" and "Time Efficiency". The "Result" section will show you the required materials.</li><li>Type in how many minerals you have "In Hand" and you will get a "Still Needed" Material Count.</li><li>We use last week\'s average price for price calculations. The sum price for "still need" only includes the still needed items, if you don\'t need this item, the price will be 0 in the calculations.</li><li>"Ore Calculator" is a quick way to find how many ores can be processed into your still needed materials, try setting your correct "Ore Efficiency"</li><li>It\'s a personal project all data is manually entered, so if you find anything wrong, just report a bug. The bug report link is in the bottom footer, thx.</li><li><a href="https://www.bilibili.com/video/av80449531/" target="_blank">Operation Video in Chinese</a></li></ul>',
       config: {
         title: 'Config Params',
         selectItem0: 'Item',
@@ -1089,8 +1089,8 @@ const messages =  {
             item: 'Material',
             inhand: 'In Hand(Support+-*/)',
             buildCost: 'Build Cost',
-            stillNeed: 'Still Need',
-            percent: 'Owner Rate',
+            stillNeed: 'Requied',
+            percent: 'Rate in hand',
             sum: 'Sum',
           },
           option:{
@@ -1102,9 +1102,9 @@ const messages =  {
       oreConfig: {
         title: 'Ore Calculator Config',
         title_rate: 'Set Ore Efficiency',
-        title_rate_small: 'Only need set following Ore Efficiency, no need set for duplicate Ore',
-        title_oreOpen: 'Set Ore Dig',
-        title_oreOpen_small: 'Only calculate with set to "Yes" ',
+        title_rate_small: 'Only need set following Ore Efficiency, other ores use the same efficiency',
+        title_oreOpen: 'Ore constraints',
+        title_oreOpen_small: 'Only calculates ores when set to "Yes" ',
       },
       oreResult:{
         title: 'Ore Result',
@@ -1115,7 +1115,7 @@ const messages =  {
         table:{
           title:{
             item: 'Ore Name',
-            stillNeed: 'Still Need',
+            stillNeed: 'Still Needed',
             oreSuggest: 'Ore Suggest',
           },
         }
@@ -1157,7 +1157,7 @@ const messages =  {
           title:{
             item: 'Material',
             inhand: 'inhand Count',
-            buildResult: 'Need',
+            buildResult: 'Build Requirement',
             need: 'Still Need',
             percent: 'Inhand Rate',
             sum: 'Sum',
@@ -1224,9 +1224,9 @@ const messages =  {
 
     oreView:{
       title: 'Ore Calculator',
-      subTitle: 'Quickly calculate how many mineral will output from the Ore in your hand',
+      subTitle: 'Quickly calculate how many minerals you will obtain from your ore',
       usageTitle: 'Usage',
-      usageBody: '<ul><li>Select an Ore in "Config Params", and set correct "Ore Count", "Material Efficiency", the "Result" will show output mineral count </li><li>"Asteroid belt" is the range where the ore can be found, and "Safety level" is the range where the asteroid belt can be found</li><li>"Ship Volume" is a special param for calculate how many Ore one ship can container, and it only effect once after changed</li><li>The ore refining unit is 100, like 199 will only refine 100, left 99.</li><li>Because of decimal point, you may get 1-2 calculated deviation in result, like result is 135, but in game it\'s 134</li><li>It\'s a personal project all data is manually entered, so if you find anything wrong, just report a bug, bug report link in the bottom footer, thx.</li><li><a href="https://www.bilibili.com/video/av80457729/" target="_blank">Operate Video in Chinese</a></li></ul>',
+      usageBody: '<ul><li>Select an Ore in "Config Params", and set correct "Ore Count" and "Material Efficiency". The "Result" will show the outputted mineral count.</li><li>"Asteroid belt" is the range where the ore can be found and "Safety level" is the range where the asteroid belt can be found.</li><li>"Ship Volume" is a special param used to calculate how much ore a ship can hold and does not affect the calculations if left blank.</li><li>The ore refining unit is 100, e.g. 199 will only refine 100, leaving 99 remaining.</li><li>Because of decimal points, you may get 1-2 calculated deviation in the result. For example if the result is 135, but in game it\'s 134</li><li>It\'s a personal project all data is manually entered, so if you find anything wrong, just report a bug. The bug report link is in the bottom footer, thx.</li><li><a href="https://www.bilibili.com/video/av80457729/" target="_blank">Operation Video in Chinese</a></li></ul>',
       config: {
         title: 'Config Params',
         selectOre: 'Select Ore ',
@@ -1250,9 +1250,9 @@ const messages =  {
           title:{
             item: 'Mineral',
             target: 'Target Count',
-            buildResult: 'Get',
-            left: 'Still NeedCount',
-            percent: 'Still Need Rate',
+            buildResult: 'Collected',
+            left: 'Still Needed',
+            percent: 'Still Needed Rate',
             sum: 'Sum Price',
           },
           option:{
@@ -1267,7 +1267,7 @@ const messages =  {
       title: 'Mix Ore Calculator',
       subTitle: 'The new calculator for Mix Ore, Just Try It.',
       usageTitle: 'Usage',
-      usageBody: '<ul><li> Click "+ New Ore" to add new ore count item</li><li>It\'s for more than one Ore condtion, for ship like Retriever</li><li>The ore refining unit is 100, below amount will not refine, like 199 will only refine 100, left 99.</li><li>Because of decimal point, you may get 1-2 calculated deviation in result, like result is 135, but in game it\'s 134</li><li>It\'s a personal project all data is manually entered, so if you find anything wrong, just report a bug, bug report link in the bottom footer, thx.</li></ul>',
+      usageBody: '<ul><li> Click "+ New Ore" to add new a new ore and quantity</li><li>It\'s used for more than one ore type, useful for ships like the Retriever</li><li>The ore refining unit is 100, e.g. 199 will only refine 100, leaving 99 remaining.</li><li>Because of decimal points, you may get 1-2 calculated deviation in the result. For example if the result is 135, but in game it\'s 134</li><li>It\'s a personal project all data is manually entered, so if you find anything wrong, just report a bug. The bug report link is in the bottom footer, thx.</li></ul>',
       result:{
         title: 'Result',
 
@@ -1276,9 +1276,9 @@ const messages =  {
           title:{
             item: 'Mineral',
             target: 'Target Count',
-            buildResult: 'Get',
-            left: 'Still NeedCount',
-            percent: 'Still Need Rate',
+            buildResult: 'Collected',
+            left: 'Still Needed',
+            percent: 'Still Needed Rate',
             sum: 'Sum Price',
             cnt: 'Count',
             rate: ' Efficiency',
@@ -1296,9 +1296,9 @@ const messages =  {
 
     vesselDebrisView:{
       title: 'Vessel Debris Calculator',
-      subTitle: 'Quickly calculate how many Slavaged Material will output from the Vessel Debris in your hand',
+      subTitle: 'Quickly calculate how many Salvaged Material will output from processing the Vessel Debris in your hand',
       usageTitle: 'Usage',
-      usageBody: '<ul><li>Select one Vessel Debris in "Config Params", and setting correct "Vessel Count","Material Efficiency", the "Result" section will show output Slavaged Material Count</li><li> The digits is exist in the result, like 2.33, for one Vessel Debris will output 2 Slavaged Materials, 10 Vessel Debris will output 23, so it\'s good idea to use more Vessel Debris in onece</li><li>the "Material Efficiency" will auto update by "Select Skill"</li><li>"Target Count", "Still NeedCount", "Still Need Rate" for quick calculate</li><li>It\'s a personal project all data is manually entered, so if you find anything wrong, just report a bug, bug report link in the bottom footer, thx.</li><li><a href="https://www.bilibili.com/video/av80457780/" target="_blank">Operate Video in Chinese</a></li></ul>',
+      usageBody: '<ul><li>Select one Vessel Debris in "Config Params", and set correct "Vessel Count" and "Material Efficiency". The "Result" section will show the calculated Salvaged Material count.</li><li>The result is rounded, for example with a rate of 2.33: 1 Vessel Debris will output 2 Salvaged Materials, but 10 Vessel Debris will output 23. It\'s good idea to use more Vessel Debris at once.</li><li>The "Material Efficiency" will automatically update from "Select Skill".</li><li>"Target Count", "Still Needed" and "Still Needed Rate" are used for quick calculations.</li><li>It\'s a personal project all data is manually entered, so if you find anything wrong, just report a bug. The bug report link is in the bottom footer, thx.</li><li><a href="https://www.bilibili.com/video/av80457780/" target="_blank">Operation Video in Chinese</a></li></ul>',
       config: {
         title: 'Config Params',
         selectVesselDebris: 'Select Vessel',
@@ -1317,11 +1317,11 @@ const messages =  {
 
         table:{
           title:{
-            item: 'Slavaged Material',
+            item: 'Salvaged Material',
             target: 'Target Count',
-            buildResult: 'Get',
-            left: 'Still Need',
-            percent: 'Still Need Rate',
+            buildResult: 'Obtained',
+            left: 'Still Needed',
+            percent: 'Still Needed Rate',
             sum: 'Sum Price',
           },
 
@@ -1335,13 +1335,13 @@ const messages =  {
     },
 
     slavagedMaterialView:{
-      title: 'Slavaged Material Search',
-      subTitle: 'Quickly Search Slavaged Material\'s source Vessel Debris',
+      title: 'Salvaged Material Search',
+      subTitle: 'Quickly Search Salvaged Material\'s source Vessel Debris',
       usageTitle: 'Usage',
-      usageBody: '<ul><li>Select one Slavaged Material, will show the source Vessel Debris, and the "Material Efficiency" will take in count.</li><li>The "Material Efficiency" will auto fill by "Select Skill"</li><li>It\'s a personal project all data is manually entered, so if you find anything wrong, just report a bug, bug report link in the bottom footer, thx.</li></ul>',
+      usageBody: '<ul><li>Select one Salvaged Material and the tool will show the source Vessel Debris. The "Material Efficiency" will be taken into account.</li><li>The "Material Efficiency" will automatically be populated from the "Select Skill" field.</li><li>It\'s a personal project all data is manually entered, so if you find anything wrong, just report a bug. The bug report link is in the bottom footer, thx.</li></ul>',
       config: {
         title: 'Config Params',
-        selectVesselDebris: 'Slavaged Material',
+        selectVesselDebris: 'Salvaged Material',
         buildCostRate: 'Material Efficiency',
         selectSkill: 'Select Skill',
 
@@ -1376,10 +1376,10 @@ const messages =  {
 
     rigView:{
       title: 'Rig Build Calculator',
-      subTitle: 'You can calculate Rig\'s Slavaged Material count here.',
+      subTitle: 'You can calculate rigs\' Salvaged Material count here.',
 
       usageTitle: 'Usage',
-      usageBody: '<ul><li>FYI, your building can only possibale if the Tech Level is enough, so check your Tech Level frist!!!</li><li>Select a rig in "Config Params", then set correct "Build Count","Material Efficiency","Time Efficiency", you can see need material list in "Result"</li><li>It\'s a personal project all data is manually entered, so if you find anything wrong, just report a bug, bug report link in the bottom footer, thx.</li></ul>',
+      usageBody: '<ul><li>FYI, building is only possible if your Tech Level is high enough, so check your Tech Level first!</li><li>Select a rig in "Config Params", then set correct "Build Count", "Material Efficiency", "Time Efficiency". See what materials you need in "Result".</li><li>It\'s a personal project all data is manually entered, so if you find anything wrong, just report a bug, the bug report link is in the bottom footer, thx.</li></ul>',
       config: {
         title: 'Config Params',
         selectRig: 'Select Rig',
@@ -1403,9 +1403,9 @@ const messages =  {
 
         table:{
           title:{
-            item: 'Slavaged Material',
+            item: 'Salvaged Material',
             inhand: 'In Hand',
-            buildResult: 'Build Need',
+            buildResult: 'Build Requirement',
             need: 'Still Need',
             percent: 'In Hand Rate',
             sum: 'Sum',
@@ -1420,26 +1420,26 @@ const messages =  {
 
     skillPointView:{
       title: 'Skill Point Calculator',
-      subTitle: 'You can calculate how many time need for the Skill Point',
+      subTitle: 'You can calculate how much time it takes to reache your Skill Point goals',
 
       usageTitle: 'Usage',
-      usageBody: '<ul><li>Setting "Start/Target Skill Point" in "Config Params" Section, you will get sum point and need time in the "Result" Section</li><li>"Tech Level" will auto set "Target Skill Point" after select</li><li>"Get Point" is how many Skill Point will get in one minues, "Time Efficiency" is the rate of "Get Point"</li><li>"Extre-Point" for free get Skill Point every day. This point will attach to "Get Point" by minues, then use in the calculate</li><li>Tech Level data collected by the volunteer "Fish Lord" in our Volunteer Group, thx for him, if you find anything wrong, just report a bug, the link in the mid of footerbar.</li></ul>',
+      usageBody: '<ul><li>Set your "Start Points" and your "Target Points" in the "Config Params" section, the time required will be displayed in the "Result" section.</li><li>Selecting a "Tech Level" will automatically set "Target Points"</li><li>"Get Point" is your rate of Skill Points per minute, "Time Efficiency" is a percentage of "Get Point"</li><li>"Extra Points" is for extra skill points per day. This value will attach to "Points per min", then be used in the calculation</li><li>Tech Level data collected by the volunteer "Fish Lord" in our Volunteer Group, thx for him. If you find anything wrong, just report a bug using the link in the footer.</li></ul>',
       config: {
         title: 'Config Params',
         selectSkill: 'Tech Level',
-        startSkillPoint: 'Start Point',
-        endSkillPoint: 'Target Point',
+        startSkillPoint: 'Start Points',
+        endSkillPoint: 'Target Points',
         min: 'Min',
         day: 'Day',
 
-        skillMinPoint: 'Get Point',
+        skillMinPoint: 'Points per min',
         skillTimeRate: 'Time Efficiency',
-        skillDailyPoint: 'Extre-Point',
+        skillDailyPoint: 'Extra Points',
       },
       result:{
         title: 'Result',
         needPoint: 'Sum Point',
-        finallyMinPoint: 'Finally Got Point',
+        finallyMinPoint: 'Total points per min',
         needMin: 'Min',
         needHour: 'Hour',
         needDay: 'Day',
@@ -1487,14 +1487,14 @@ const messages =  {
 
       skill:{
         title: 'Set Skill',
-        small: '[NOT USE] Select skill and set level will see data changing',
+        small: '[NOT USE] Select skills and set levels to see the data change',
 
         newBtn: '+ New Skill',
       },
 
       condition:{
         title: 'Set Param',
-        small: '[NOT USE] Other param will effect ship attribute',
+        small: '[NOT USE] Other params will effect ship attributes',
 
         newBtn: '+ New Param',
       },
@@ -1507,7 +1507,7 @@ const messages =  {
           capa_ore: 'Ore Capacity',
           capa_logistics: 'Logistics Capacity',
 
-          skillBonus: 'Sill Bonus',
+          skillBonus: 'Skill Bonus',
           specialBonus: 'Special Bonus',
         },
         attack: {
@@ -1538,7 +1538,7 @@ const messages =  {
         }, 
         navigation: {
           title: 'Navigation',
-          warpAgainst: 'Wrap Against',
+          warpAgainst: 'Warp Against',
           warpSpeed: 'Warp Speed',
           inertiaModifier: 'Inertia Modifier',
           mass: 'Mass',
@@ -1571,42 +1571,42 @@ const messages =  {
 
     donateView:{
       title: 'Donate for iEVE',
-      subTitle: 'Your Donate will make iEVE better!',
+      subTitle: 'Your Donation will make iEVE better!',
       topbar:{
         title: 'Explain',
         subTitle: '',
-        bodyText:'<p>iEVE is a free charity project, donation can make it more stable operation, here you can join the team that supports iEVE, I believe it will be better if you support it!</p><p>Currently we support games In-game donations and cash donations, voluntary donations are not forced, and minors’ donations are rejected.</p><p>In-game donations are very encouraged. Our data volunteers work very hard, and they sacrifice a lot of private time To improve the data, we hope that players in the community can express their affirmation and gratitude to them through in-game donations.</p>',
+        bodyText:'<p>iEVE is a free charity project, donations can make it a more stable operation. Here you can join the team that supports iEVE, I believe it will be better if you support it!</p><p>Currently we support in-game donations and cash donations, voluntary donations are not forced, and minors’ donations are rejected.</p><p>In-game donations are very encouraged. Our data volunteers work very hard, and they sacrifice a lot of private time to improve the data. We hope that players in the community can express their affirmation and gratitude to them through in-game donations.</p>',
         donateLinkText: '>>> Donor List <<<',
       },
       inGame:{
         title: 'In-Game Donate',
         subTitle: 'Donations made directly in the game',
-        bodyText:'<p>Just make a contact to <span class=\'text-green\'>ieve</span> then we will get your donate(ISK, Plex, Equipment), the role name is <span class=\'text-green\'>ieve</span> No capital, no sign, no spaces!!</p><p>Will accept contract regularly at 1:00 and 13:00 UTC every day, also will confirm it when I see it at other times</p><p>Your donation will be given to volunteers who provide services for iEVE free of charge. I believe they will feel warm with every donation!</p>',
+        bodyText:'<p>Just make a contact to <span class=\'text-green\'>ieve</span> then we will get your donation(ISK, Plex, Equipment), the role name is <span class=\'text-green\'>ieve</span> No capital, no sign, no spaces!!</p><p>Will accept contract regularly at 1:00 and 13:00 UTC every day, also will confirm it when I see it at other times</p><p>Your donation will be given to volunteers who provide services for iEVE free of charge. I believe they will feel warm with every donation!</p>',
       },
       paypal:{
         title: 'PayPal Donate',
         subTitle: 'Donate via PayPal link',
-        bodyText:'<p>The PayPal Link: <a href=\'https://www.paypal.me/xinhualee\' target="_blank" >https://www.paypal.me/XinHuaLee</a></p><p>Your donation will be used to pay for iEVE operating expenses</p>',
+        bodyText:'<p>The PayPal Link: <a href=\'https://www.paypal.me/xinhualee\' target="_blank" >https://www.paypal.me/XinHuaLee</a></p><p>Your donation will be used to pay for iEVE\'s operating expenses</p>',
       },
       alipay:{
         title: 'Alipay Donate',
-        subTitle: 'QR for Chinese user',
-        bodyText:'<p><img src="./statics/pics/alipay_qr.jpg" /></p><p>Your donation will be used to pay for iEVE operating expenses</p>',
+        subTitle: 'QR for Chinese users',
+        bodyText:'<p><img src="./statics/pics/alipay_qr.jpg" /></p><p>Your donation will be used to pay for iEVE\'s operating expenses</p>',
       },
       wechat:{
         title: 'Wechat Donate',
-        subTitle: 'QR for Chinese user',
-        bodyText:'<p><img src="./statics/pics/wechat_qr.jpg" /></p><p>Your donation will be used to pay for iEVE operating expenses</p>',
+        subTitle: 'QR for Chinese users',
+        bodyText:'<p><img src="./statics/pics/wechat_qr.jpg" /></p><p>Your donation will be used to pay for iEVE\'s operating expenses</p>',
       },
     },
 
     monumentView:{
       title: 'Monument',
-      subTitle: 'You are the only reason make iEVE better.',
+      subTitle: 'iEVE would not be better without you.',
       topbar:{
-        title: 'Explain',
+        title: 'Explanation',
         subTitle: '',
-        bodyText:'<ul><li>I want to remember everyone who has helped iEVE</li><li>All manual data, if you have anything wrong, please contact me</li><li>Show data as default option, if you want to hide your data please contact me, thank you</li></ul>',
+        bodyText:'<ul><li>I want to remember everyone who has helped iEVE.</li><li>All manual data, if you have anything wrong, please contact me.</li><li>Show data as default option, if you want to hide your data please contact me, thank you.</li></ul>',
       },
       typeTitle:{
         t1: 'Special Thx',
@@ -1633,9 +1633,9 @@ const messages =  {
       oreConfig: {
         title: 'Params Config',
         title_rate: 'Set Ore Efficiency',
-        title_rate_small: 'Only need set following Ore Efficiency, no need set for duplicate Ore',
-        title_oreOpen: 'Set Ore Dig',
-        title_oreOpen_small: 'Only calculate with set to "Yes" ',
+        title_rate_small: 'Only need set following Ore Efficiency, other ores use the same efficiency',
+        title_oreOpen: 'Ore constraints',
+        title_oreOpen_small: 'Only calculates ores set to "Yes" ',
         otherConfig:{
           title: 'Other Params',
           title_small: 'Set other params for better usage',
@@ -1669,7 +1669,7 @@ const messages =  {
         selectSkill: 'Select Skill',
         race: {
           title: 'Set Race',
-          title_small: 'Only show with race is "Yes" ',
+          title_small: 'Only show debris when race is "Yes" ',
         },
       },
 
@@ -1730,12 +1730,12 @@ const messages =  {
 
     marketView:{
       title: 'iEVE Market',
-      subTitle: 'NOT easy make deal online? Using our iEVE Market, just leave message on the board, you will get contact soon, Fast, Efficient, Open, Transparent',
+      subTitle: 'Not easy to make deals online? Using our iEVE Market, just leave message on the board, you will get contact soon. Fast, efficient, open, transparent!',
     },
 
     onlineMarketView:{
       title: '[Alpha]Online Market',
-      subTitle: 'See market info one web, no need open game, Quickly, Easy, Faster[Under Translate]',
+      subTitle: 'See market info one web, no need to open the game. Quick, Easy, Simple',
 
     },
     onlineMarketDetailModal:{
@@ -1783,7 +1783,7 @@ const messages =  {
           donchain: 'Price Change Range',
           volume: 'Sell Volume',
           orderCount: 'Order Count',
-          volumePerOrder: 'Signle Order Price',
+          volumePerOrder: 'Single Order Price',
         }
       },
 
