@@ -136,7 +136,7 @@ const messages =  {
         yl: 'Large Torpedo Launcher',
       },
       hunhe: {
-        title: 'Railguns'',
+        title: 'Railguns',
         cigui:{
           s: 'Small Rifled Railgun',
           m: 'Medium Rifled Railgun',
