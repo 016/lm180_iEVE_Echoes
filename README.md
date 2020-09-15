@@ -1,15 +1,19 @@
-# lm180_iEVE_Echoes
+# iEVE Public Data
+All data for https://ieve.yiilib.com, you are welcome to join us on the public data project.
 
-## for link https://ieve.yiilib.com
+Right now we only have i18n translate code in the repo for our translators
 
-## right now we only have i18n translate code in the repo for our translators
+## i18n status
+- [x] zh.js(Chinese) - finish first version, ready for use
+- [x] en.js(English) - finish first version, ready for use
+- [ ] de.js(German) - already found translator, will start translating soon.
+- [ ] pt.js(Portuguese) - already found translator, will start translating soon.
+- [ ] ru.js(Russian) - looking for translate.
+
+## join us?
+* send an email to yiilib.com@gmail.com, tell me your language and what do u want help
+* direct do the translate on github add a pull request
+* if your language is not in the list, you can contact us to add it, we want support as much languages as we can
 
 
-
-
-right now we only have i18n translate code in the repo for our translators
-
-
-A. composer
-* 1. composer global require "fxp/composer-asset-plugin:^1.2.0"
-* 2. composer install --no-dev
+[Continuous Updating]
