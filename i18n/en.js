@@ -26,7 +26,7 @@ const messages =  {
     id: 'ID',
 
     costCurrency: 'ISK',
-    costCharge: '<span>At present, only invited users can join the test phase, the price of publishing information is extremely low and it will be restored after the test. Each invited account is gifted with ISK for testing.</span><br/><span>In order to prevent spam, a certain amount of account balance will be deducted for message posted, and it cannot be posted if the balance is insufficient</span><br/><span>[NOT START]Recharge method: send ISK via contract to ieve in the game, add `ieve-Your ieve website account Name`(for me it\'s ieve-DP, your registered account name on the ieve website is very important!!!) in desc part, will recharge the account after received the contract</span><br/><span>It is forbidden to post politics, insults/attack others, RMT and other content, we will delete it and ISK will not be refunded, if the circumstances are serious, direct account recharge will not be refunded</span>',
+    costCharge: '<span>Currently, the test phase is by invitation only. The cost of publishing information is set to an extremely low amount and it will be restored to normal afterwards. Invited accounts are gifted some ISK for the testing purpose.</span><br/><span>In order to prevent spams, a certain amount of ISK will be charged for the message posted, and it cannot be posted if the balance is insufficient</span><br/><span>[NOT IMPLEMENTED YET]Recharge method: send ISK via contract to ieve in the game, add `ieve-Your ieve website account Name`(for me it\'s ieve-DP, your registered account name on the ieve website is very important!!!) in desc part, will recharge the account after received the contract</span><br/><span>It is prohibited to post politics, personal insults, RMT and other inappropriate content. Such post will be deleted without refund. Future violation will lead to account ban without refund.</span>',
 
     newElement:{
       title: 'Title',
@@ -136,7 +136,7 @@ const messages =  {
         yl: 'Large Torpedo Launcher',
       },
       hunhe: {
-        title: 'Hybrid Turrets',
+        title: 'Railguns'',
         cigui:{
           s: 'Small Rifled Railgun',
           m: 'Medium Rifled Railgun',
