@@ -1,5 +1,5 @@
 # iEVE Public Data
-All data for https://ieve.yiilib.com, you are welcome to join us on the public data project.
+iEVE is a web-based tools box for Eve Echoes, in this project you can find all public data for https://ieve.yiilib.com, you are welcome to join us on the public data working.
 
 Right now we only have i18n translate code in the repo for our translators
 
