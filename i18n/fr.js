@@ -7,7 +7,7 @@ const messages =  {
     signup: 'S\'inscire',
     forgotPass: 'Mot de passe oublié',
     resetPass: 'Changer de mot de passe',
-    backIndexPage: 'Back to Index',
+    backIndexPage: 'Retour à l\'Index',
 
     smsCode: 'Code SMS',
     sendSms: 'Envoyer un SMS',
@@ -218,10 +218,10 @@ const messages =  {
     slotMid:{
       ewar: {
         title: 'Guerre électronique',
-        tzcr:'Stase',
+        tzcr:'Générateur de stase',
         tzbz:'Stasis Grappler',
-        yqrd:'Brouilleur de warp',
-        yqrp:'Warp Scrambler',
+        yqrd:'Perturbateur de Warp',
+        yqrp:'Brouilleur de Warp',
       },
       ln: {
         title: 'Nosferaptu à énergie',
@@ -519,7 +519,7 @@ const messages =  {
     o_obes:'Omber',
     o_sps:'Kernite',
     o_jsbk:'Jaspet',
-    o_xmft:'Hemorphite',
+    o_xmft:'Hémorphite',
     o_twyk:'Hedbergite',
     o_hy:'Spodumain',
     o_hzs:'Ocre Sombre',
