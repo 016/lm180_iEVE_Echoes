@@ -112,11 +112,11 @@ const messages =  {
     },
 
     slotType:{
-      low: 'Emplacement inférieur',
-      mid: 'Emplacement intermédiaire',
-      high: 'Emplacement supérieur',
+      low: 'Emplacement Inférieur',
+      mid: 'Emplacement Intermédiaire',
+      high: 'Emplacement Supérieur',
 
-      drone: 'Empacement drones',
+      drone: 'Empacement Drones',
 
 
       rig_p: 'Module d\'optimisation de combat',
@@ -489,7 +489,7 @@ const messages =  {
 
     s_jssp : 'Fragments de Métal',
     s_qhjssp : 'Fragments de Métal Renforcé',
-    s_wdl : 'Microcircuit carbonisé',
+    s_wdl : 'Microcircuit Carbonisé',
     s_jkdl : 'Circuit d\'Interface Grillé',
     s_nydl : 'Circuit d\'Alimentation Disjoncté',
     s_ljdl : 'Cicuit Logique Brûlé',
@@ -500,7 +500,7 @@ const messages =  {
     s_llzlt : 'Fluide de Lorentz contaminé',
     s_jhdt : 'Polymère Conducteur',
     s_nmjht : 'Composé de Nanite Contaminé',
-    s_dlb : 'Pompe à Courant Défecteurse',
+    s_dlb : 'Pompe à Courant Défecteuse',
     s_jccfjg : 'Unité de Déclanchement Intégrée',
     s_gzzz : 'Dispositif de Modification de Coque Intégré',
     s_mkkzt : 'Contrôle de Module Intégré',
@@ -514,7 +514,7 @@ const messages =  {
   ore:{
     o_fjs:'Veldspar',
     o_zsy:'Scordite',
-    o_gjy:'Pyroxeres',
+    o_gjy:'Pyroxérès',
     o_xcy:'Plagioclase',
     o_obes:'Omber',
     o_sps:'Kernite',
@@ -869,7 +869,7 @@ const messages =  {
       signup: 'S\'inscrire',
     },
     index:{
-      title: 'Bienvenu',
+      title: 'Bienvenue',
       subTitle: 'Utilsez iMenu pour gérer tous vos projets en ligne',
 
     },
@@ -943,7 +943,7 @@ const messages =  {
   pri: {
     topbar:{
       dashboard: 'Accueil',
-      materialPrice: 'Prix minéral',
+      materialPrice: 'Prix Minéral',
       volunteer: 'Canal des bénévoles',
       donate: 'Don',
       monument: 'Monument',
@@ -995,9 +995,9 @@ const messages =  {
       subTitle: 'Toutes les données pour cette app.',
 
       welcome: {
-        title: 'Bienvenu sur iEve la Tool Box en ligne de Eve Echoes',
-        subTitle: 'You pouvez trouver des outils de Eve Echoes en ligne ici.',        
-        body: '<p class="text ">Après un mois de travail, les données de base ont été ajoutées, et plus de fonctions seront rajoutées dans le future. Je vous souhaite le meilleur. Vous êtes les bienvenues pour prtager vos suggestions. </p>',
+        title: 'Bienvenue sur iEve la Tool Box en ligne de Eve Echoes',
+        subTitle: 'Vous pouvez trouver des outils de Eve Echoes en ligne ici.',        
+        body: '<p class="text ">Après un mois de travail, les données de base ont été ajoutées, et plus de fonctions seront rajoutées dans le future. Je vous souhaite le meilleur. Vous êtes les bienvenues pour partager vos suggestions. </p>',
       },
 
     },
@@ -1025,7 +1025,7 @@ const messages =  {
 
       typeTitle:{
         t0: 'Minerai',
-        t1: 'Mineur',
+        t1: 'Minéral',
         t2: 'Planétaire',
         t3: 'Matériau Récupéré',
         t11: 'Débris',
@@ -1054,7 +1054,7 @@ const messages =  {
       title: 'Calculatrice Construction',
       subTitle: 'Vérifiez tous les éléments de contruction ici. Découvrez combien il en manque.',
       usageTitle: 'Usage',
-      usageBody: '<ul><li>Nous prennons en charge 4 types maintenant, essayez de les changer!</li><li>FYI, vous ne pouvez que fabriquer les objets avec le niveau Tech requis, alors vérifiez d\'abord votre niveau Tech!!!</li><li>Sélectionnez un objet et définissez correctement le "Nombre Construction", "Efficacité Matérielle" et "Efficacité Temps". La section "Résultat" vous montrera les matériaux requis.</li><li>Tapez combien de matériaux vous avez dans "En Possession" et vous obtiendrez un nombre de matériaux "Encore Besoin".</li><li>Nous utilisons le prix moyen de la semaine dernière pour les calculs. Le prix total pour "Encore Besoin" ne comprend que les articles encore nécessaires, si vous n\'avez pas besoin de cet article, le prixw sera de 0 dans les calculs.</li><li>"Calculatrice Minerais" est un moyen rapide de déterminer combien de minerais peuvent être raffinés parmi vos matériaux encore nécessaires, essayez de définir correctement votre "Rendement Minerai"</li><li>C\'est un projet personnel toutes les données sont entrées manuellement, donc si vous trouvez quelque chose de faux, signalez le bug. Le lien de rapport de bug se trouve dans le pied de page, thx.</li><li><a href="https://www.bilibili.com/video/av80449531/" target="_blank">Operation Video in Chinese</a></li></ul>',
+      usageBody: '<ul><li>Nous prennons en charge 4 types maintenant, essayez de les changer!</li><li>Pour votre information, vous ne pouvez que fabriquer les objets avec le niveau Tech requis, alors vérifiez d\'abord votre niveau Tech!!!</li><li>Sélectionnez un objet et définissez correctement le "Nombre Construction", "Efficacité Matérielle" et "Efficacité Temps". La section "Résultat" vous montrera les matériaux requis.</li><li>Tapez combien de matériaux vous avez dans "En Possession" et vous obtiendrez un nombre de matériaux "Encore Besoin".</li><li>Nous utilisons le prix moyen de la semaine dernière pour les calculs. Le prix total pour "Encore Besoin" ne comprend que les articles encore nécessaires, si vous n\'avez pas besoin de cet article, le prixw sera de 0 dans les calculs.</li><li>"Calculatrice Minerais" est un moyen rapide de déterminer combien de minerais peuvent être raffinés parmi vos matériaux encore nécessaires, essayez de définir correctement votre "Rendement Minerai"</li><li>C\'est un projet personnel toutes les données sont entrées manuellement, donc si vous trouvez quelque chose de faux, signalez le bug. Le lien de rapport de bug se trouve dans le pied de page, thx.</li><li><a href="https://www.bilibili.com/video/av80449531/" target="_blank">Vidéo d'opération en chinois</a></li></ul>',
       config: {
         title: 'Config Paramètres',
         selectItem0: 'Objets',
@@ -1094,7 +1094,7 @@ const messages =  {
             sum: 'Total',
           },
           option:{
-            showItemPrice: 'Monrter Prix Détaillé',
+            showItemPrice: 'Montrer Prix Détaillé',
             showSumPrice: 'Montrer Prix Total',
           }
         }
@@ -1156,7 +1156,7 @@ const messages =  {
         table:{
           title:{
             item: 'Matériaux',
-            inhand: 'Compte En Possession',
+            inhand: 'Nombre En Possession',
             buildResult: 'Nécessaire Construction',
             need: 'Encore Besoin',
             percent: 'Taux En Possession',
@@ -1174,7 +1174,7 @@ const messages =  {
       title: 'Recherche Ressource Planétaire',
       subTitle: 'Trouvez rapidement la position de la ressource planétaire et calculez le rendement (et le prix) de votre compte',
       usageTitle: 'Usage',
-      usageBody: '<ul><li>Toutes les données ajoutées, amusez-vous!</li><li>Sélectionnez "Région"/"Constellation"/"Système solaire"(un ou tous) et "Ressource Planétaire", cliquez "Démarrer Recherche" renverra des informations relatives aux ressources planétaires</li><li>Le résultat pourrait être vide, il faut donc changer la condition si le résultat est vide.</li><li>"Tableau Minier" peut aider au calcul de sortie d\'une heure</li><li>"||| / 25.47 / 25.47" dans Résultat signifie «Évaluation des ressources / Volume minier unitaire / Volume minier total»</li><li>Nous utilisons le prix de la semaine dernière pour calculer le prix</li></ul>',
+      usageBody: '<ul><li>Toutes les données sont ajoutées, amusez-vous!</li><li>Sélectionnez "Région"/"Constellation"/"Système solaire"(un ou tous) et "Ressource Planétaire", cliquez "Démarrer Recherche" renverra des informations relatives aux ressources planétaires</li><li>Le résultat pourrait être vide, il faut donc changer la condition si le résultat est vide.</li><li>"Tableau Minier" peut aider au calcul de sortie d\'une heure</li><li>"||| / 25.47 / 25.47" dans Résultat signifie «Évaluation des ressources / Volume minier unitaire / Volume minier total»</li><li>Nous utilisons le prix de la semaine dernière pour calculer le prix</li></ul>',
       config: {
         title: 'Config Paramèrtes',
         selectRegion: 'Région',
@@ -1214,7 +1214,7 @@ const messages =  {
             sum: 'Prix Total',
           },
           option:{
-            showItemPrice: 'Montrer Pric Détaillé',
+            showItemPrice: 'Montrer Prix Détaillé',
             showSumPrice: 'Montrer Prix Total',
           }
         }
@@ -1226,7 +1226,7 @@ const messages =  {
       title: 'Calculatrice Minerais',
       subTitle: 'Calculez rapidement le nombre de minéraux que vous obtiendrez de votre minerai',
       usageTitle: 'Usage',
-      usageBody: '<ul><li>Sélectionnez un minerai dans "Config Paramètres", et définissez "Montant Minerais" et "Efficacité Matérielle". Le "Résultat" affichera le nombre de minéraux en sortie.</li><li>"Ceinture Astéroïde" est la plage où se trouve le minerai et "Niveau Sécurité" est la plage où se trouve la ceinture d\'astéroïdes.</li><li>"Volume Vaisseau" est un paramètre spécial utilisé pour calculer la quantité de minerai qu\'un vaisseau peut contenir et n\'affecte pas les calculs s\'il est laissé vide.</li><li>L\'unité de raffinage du minerai est de 100, ex. 199 ne fera que raffiner 100, laissant 99 restants.</li><li>En raison des points décimaux, vous pouvez obtenir 1-2 écarts calculés dans le résultat. Par exemple si le résultat est 135, mais dans le jeu, c\'est 134</li><li>C\'est un projet personnel toutes les données sont ajoutées manuellement, donc si vous trouver quelque chose de faux, signalez le bug. Le lien du rapport de bug se trouve dans le pied de page, thx.</li><li><a href="https://www.bilibili.com/video/av80457729/" target="_blank">Operation Video in Chinese</a></li></ul>',
+      usageBody: '<ul><li>Sélectionnez un minerai dans "Config Paramètres", et définissez "Montant Minerais" et "Efficacité Matérielle". Le "Résultat" affichera le nombre de minéraux en sortie.</li><li>"Ceinture Astéroïde" est la plage où se trouve le minerai et "Niveau Sécurité" est la plage où se trouve la ceinture d\'astéroïdes.</li><li>"Volume Vaisseau" est un paramètre spécial utilisé pour calculer la quantité de minerai qu\'un vaisseau peut contenir et n\'affecte pas les calculs s\'il est laissé vide.</li><li>L\'unité de raffinage du minerai est de 100, ex. 199 ne fera que raffiner 100, laissant 99 restants.</li><li>En raison des points décimaux, vous pouvez obtenir 1-2 écarts calculés dans le résultat. Par exemple si le résultat est 135, mais dans le jeu, c\'est 134</li><li>C\'est un projet personnel toutes les données sont ajoutées manuellement, donc si vous trouver quelque chose de faux, signalez le bug. Le lien du rapport de bug se trouve dans le pied de page, thx.</li><li><a href="https://www.bilibili.com/video/av80457729/" target="_blank">Vidéo d'opération en chinois</a></li></ul>',
       config: {
         title: 'Config Paramètres',
         selectOre: 'Sélectionnez Minerais ',
@@ -1298,7 +1298,7 @@ const messages =  {
       title: 'Calculatrice Débris Vaisseau',
       subTitle: 'Calculez rapidement le nombre de matériaux récupérés provenant du traitement des débris de vaisseau en votre possession',
       usageTitle: 'Usage',
-      usageBody: '<ul><li>Sélectionnez un Débris Vaisseau dans "Config Paramètres", et définissez "Nombre Vaisseau" et "Efficacité Matérielle". La section "Résultat" affichera le nombre de matériaux récupérés calculé.</li><li>Le résultat est arrondi, par exemple avec un taux de 2,33: 1 Débris de vaisseau produira 2 matériaux récupérés, mais 10 débris de vaisseau en produiront 23. C\'est une bonne idée d\'utiliser plus de débris de vaisseau à la fois.</li><li>Le "Efficacité Matérielle" se mettra automatiquement à jour à partir de "Sélectionner Compétence".</li><li>"Nombre Cible", "Encore Besoin" et "Taux Encore Besoin" sont utilisés pour des calculs rapides.</li><li>C\'est un projet personnel toutes les données sont ajoutées manuellement, donc si vous trouver quelque chose de faux, signalez le bug. Le lien du rapport de bug se trouve dans le pied de page, thx.</li><li><a href="https://www.bilibili.com/video/av80457780/" target="_blank">Operation Video in Chinese</a></li></ul>',
+      usageBody: '<ul><li>Sélectionnez un Débris Vaisseau dans "Config Paramètres", et définissez "Nombre Vaisseau" et "Efficacité Matérielle". La section "Résultat" affichera le nombre de matériaux récupérés calculé.</li><li>Le résultat est arrondi, par exemple avec un taux de 2,33: 1 Débris de vaisseau produira 2 matériaux récupérés, mais 10 débris de vaisseau en produiront 23. C\'est une bonne idée d\'utiliser plus de débris de vaisseau à la fois.</li><li>Le "Efficacité Matérielle" se mettra automatiquement à jour à partir de "Sélectionner Compétence".</li><li>"Nombre Cible", "Encore Besoin" et "Taux Encore Besoin" sont utilisés pour des calculs rapides.</li><li>C\'est un projet personnel toutes les données sont ajoutées manuellement, donc si vous trouver quelque chose de faux, signalez le bug. Le lien du rapport de bug se trouve dans le pied de page, thx.</li><li><a href="https://www.bilibili.com/video/av80457780/" target="_blank">Vidéo d'opération en chinois</a></li></ul>',
       config: {
         title: 'Config Paramètres',
         selectVesselDebris: 'Sélectionnez Vaisseau',
@@ -1330,6 +1330,7 @@ const messages =  {
             showSumPrice: 'Montrer Prix Total',
           }
         }
+
       }
 
     },
@@ -1379,7 +1380,7 @@ const messages =  {
       subTitle: 'Vous pouvez calculer le nombre de Matériau Récupéré des modules d\'optimisation ici.',
 
       usageTitle: 'Usage',
-      usageBody: '<ul><li>FYI, la construction n\'est possible que si votre niveau Tech est suffisamment élevé, alors vérifiez d\'abord votre niveau Tech!</li><li>Sélectionnez un module d\'optimsation dans "Config Paramètres", puis définissez le "Nombre Construction", "Efficacité Matérielle", "Temps Efficacité". Découvrez les matériaux dont vous avez besoin dans "Résultat".</li><li>C\'est un projet personnel toutes les données sont ajoutées manuellement, donc si vous trouver quelque chose de faux, signalez le bug, le lien du rapport de bug se trouve dans le pied de page, thx.</li></ul>',
+      usageBody: '<ul><li>Pour votre information, la construction n\'est possible que si votre niveau Tech est suffisamment élevé, alors vérifiez d\'abord votre niveau Tech!</li><li>Sélectionnez un module d\'optimsation dans "Config Paramètres", puis définissez le "Nombre Construction", "Efficacité Matérielle", "Temps Efficacité". Découvrez les matériaux dont vous avez besoin dans "Résultat".</li><li>C\'est un projet personnel toutes les données sont ajoutées manuellement, donc si vous trouver quelque chose de faux, signalez le bug, le lien du rapport de bug se trouve dans le pied de page, thx.</li></ul>',
       config: {
         title: 'Config Paramètres',
         selectRig: 'Sélectionnez Module Optimisation',
@@ -1457,7 +1458,7 @@ const messages =  {
         btn : {
           showEditoForm: 'Editer Attribut',
           showItemDetail: 'Montrer Tous Détails',
-          collect: 'Préférer',
+          collect: 'Favoris',
           save: 'Enregistrer',
           reset: 'Actualiser',
         },
@@ -1564,7 +1565,7 @@ const messages =  {
       plan:{
         title: 'Plan bénévole',
         subTitle: 'Rejoignez Nous Pour Faire Mieux',
-        bodyText:'<p>Pour les utiliseurs anglais, nous recherchons des traducteurs, faite des choses comme vérifier les fautes de frappe sur iEve et faite une traduction spécial plus tard, si vous trouvez des fautes de frappe rapportez le bug thx. </p><p>Vous êtes également les bienvenus à nous aider à partager le site internet iEve aux utilisateurs Anglais, pour être honnête, nous ne savons pas comment promouvoir en anglais, thx again. </p>',
+        bodyText:'<p>Pour les utiliseurs anglais, nous recherchons des traducteurs, faite des choses comme vérifier les fautes de frappe sur iEve et faite une traduction spécial plus tard, si vous trouvez des fautes de frappe rapportez le bug thx. </p><p>Vous êtes également les bienvenues à nous aider à partager le site internet iEve aux utilisateurs Anglais, pour être honnête, nous ne savons pas comment promouvoir en anglais, thx again. </p>',
       },
       vtLinkText: '>>> Liste Bénévoles <<<',
     },
@@ -1626,7 +1627,7 @@ const messages =  {
     },
 
     quickTableOreView:{
-      title: 'Tableau Rapide Minerai',
+      title: 'Tableau Rapide Minerais',
       subTitle: 'Trouvez rapidement la sortie des minerais',
       bodyText: '',
 
@@ -1638,7 +1639,7 @@ const messages =  {
         title_oreOpen_small: 'Calule seulement les minerais définient à "Oui" ',
         otherConfig:{
           title: 'Autres Paramètres',
-          title_small: 'Definissez les autres paramèrtes for un meilleur usage',
+          title_small: 'Definissez les autres paramètres pour un meilleur usage',
           showType: {
             title: 'Montrer le type',
             unit: 'avec 1 unité',
