@@ -1581,12 +1581,12 @@ const messages =  {
       },
       inGame:{
         title: 'Donation en jeu',
-        subTitle: 'Les dons effectués directement dans le jeu',
-        bodyText:'<p>Prenez simplement contact avec <span class=\'text-green\'>ieve</span> alors nous recevrons votre don (ISK, Plex, Equipement), le nom du rôle est <span class=\'text-green\'>ieve</span> pas de majuscule, pas de signe, pas d\'espaces!!</p><p>Acceptera le contrat régulièrement a 1:00 et 13:00 UTC chaque jour, le confirmera également lorsque je le verrai à d\'autres moments</p><p>Votre don sera remis aux bénévoles qui fournissent gratuitement des services pour iEve. Je crois qu\'ils se sentiront chaleureux à chaque don!</p>',
+        subTitle: 'Les dons effectués directement en jeu',
+        bodyText:'<p>Prenez simplement contact avec <span class=\'text-green\'>ieve</span> alors nous recevrons votre don (ISK, Plex, Equipement), le nom du rôle est <span class=\'text-green\'>ieve</span> pas de majuscule, pas de signe, pas d\'espaces!!</p><p>Il acceptera le contrat régulièrement a 1:00 et 13:00 UTC chaque jour, le confirmera également lorsque je le verrai à d\'autres moments</p><p>Votre don sera remis aux bénévoles qui fournissent gratuitement des services pour iEve. Je crois qu\'ils se sentiront chaleureux à chaque don!</p>',
       },
       paypal:{
         title: 'Donation PayPal',
-        subTitle: 'Faire un don via le lien PayPal',
+        subTitle: 'Faire un don via PayPal',
         bodyText:'<p>Le lien PayPal: <a href=\'https://www.paypal.me/xinhualee\' target="_blank" >https://www.paypal.me/XinHuaLee</a></p><p>Votre don sera utilisé pour payer les frais de fonctionnement d\'iEve</p>',
       },
       alipay:{
@@ -1607,7 +1607,7 @@ const messages =  {
       topbar:{
         title: 'Explication',
         subTitle: '',
-        bodyText:'<ul><li>Je veux me souvenir de tous ceux qui ont aidé iEve.</li><li>Toutes les données manuelles, si vous voyez quelque chose de faux, contactez-moi s\'il vous plaît.</li><li>Afficher les données comme option par defaut, si vous souhaitez masquer vos données merci de me contacter, merci.</li></ul>',
+        bodyText:'<ul><li>Je veux me souvenir de tous ceux qui ont aidé iEve.</li><li>Toutes les données sont manuelles, si vous voyez quelque chose de faux, contactez-moi s\'il vous plaît.</li><li>Afficher les données comme option par defaut, si vous souhaitez masquer vos données merci de me contacter, merci.</li></ul>',
       },
       typeTitle:{
         t1: 'Remerciement Spécial',
