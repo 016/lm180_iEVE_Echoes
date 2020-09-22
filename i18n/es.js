@@ -1133,71 +1133,71 @@ const messages =  {
       config: {
         title: 'Parametros de configuración',
 
-        buildCnt: 'Build Count',
-        buildSuccessRate: 'Based Success Rate',
-        buildTimeRate: 'Time Efficiency',
+        buildCnt: 'conteo de construcción',
+        buildSuccessRate: 'Base de tasa de exito',
+        buildTimeRate: 'Eficiencia de tiempo',
 
         data:{
-          r_isk_market: "Market Price",
-          r_isk_system: "System Price",
+          r_isk_market: "Precio en mercado",
+          r_isk_system: "Precio en el sistema",
 
-          sb_isk_market: "Blueprint Market Price",
-          sb_isk_system: "Blueprint System Price",
-          s_isk_market: "Ship Market Price",
-          s_isk_system: "Ship System Price",
+          sb_isk_market: "Precio del Plano en el mercado ",
+          sb_isk_system: "Precio del plano en el sistema",
+          s_isk_market: "Precio de la nave en el mercado",
+          s_isk_system: "Precio de la nave en el sistema",
 
-          sbr_time_build: "Time Cost",
-          sbr_isk_build: "ISK Cost",
-          sbr_successRate: "Success Rate",
+          sbr_time_build: "Costo en Tiempo",
+          sbr_isk_build: "Consto de ISK",
+          sbr_successRate: "Tasa de Exito",
         },
       },
       result:{
-        title: 'Result',
+        title: 'Resultado',
 
         table:{
           title:{
             item: 'Material',
-            inhand: 'inhand Count',
-            buildResult: 'Build Requirement',
-            need: 'Still Need',
-            percent: 'Inhand Rate',
-            sum: 'Sum',
+            inhand: 'Dinero disponible',
+            buildResult: 'Requisitos de Construcción',
+            need: 'Objetos Necesarios',
+            percent: 'Inhand tasa',
+            sum: 'Total',
           },
           option:{
-            showItemPrice: 'Show Detail Price',
-            showSumPrice: 'Show Sum Price',
+            showItemPrice: 'Show Detail Price Mostrar detalles del precio',
+            showSumPrice: 'Mostrar precio total',
           }
         }
       }
     },
 
     planetaryView:{
-      title: 'Planetary Resource Search',
-      subTitle: 'Quickly find Planetary Resource position and calculate the output(and price) of your account',
-      usageTitle: 'Usage',
-      usageBody: '<ul><li>All region data added, plz enjoy!</li><li>Select "Region"/"Constellation"/"Solar System"(one or all) and "Planetary Resource", click "Start Search" will get relatived Planetary Resource info</li><li>The result could be empty, so you have to change the condition if the result is empty.</li><li>"Mining Array" can help calculate one hour\'s output</li><li>"||| / 25.47 / 25.47" in Result means "Resource evaluation / Unit mining volume / Total mining volume"</li><li>We used last week\'s average price for price calcualte</li></ul>',
+      title: 'Busqueda de Recursos planetarios',
+      subTitle: 'Puedes encotrar rapidamente la ubicacion de los recursos planetarios y calcular la salidad( y el precio) de su cuenta',
+      usageTitle: 'Uso',
+      usageBody: '<ul><li>Se añadieron los datos de Región!</li><li>Selecci{ona "Region"/"Constelación"/"Systema Solar"(uno o todos) y "Recursos planetarios", click en "Iniciar busqueda" Obtendras la informacion relativa de los Recursos Planetarios</li><li>Si el resultado esta vacío ajuste bien los parametros.</li><li>"Matriz de minería" Puede ayudarte cuanto se extrae por hora</li><li>"||| / 25.47 / 25.47" Los resultados significan "Evaluación de recursos / Volumen unitario de extracción"/ Volumen total de extracción"</li><li>Usamos el precio promedio de la semana pasada para ajustar el precio</li></ul>',
       config: {
-        title: 'Config Params',
-        selectRegion: 'Region',
-        selectConstellation: 'Constellation',
-        selectSolarSystem: 'Solar System',
-        selectPType: 'Planetary Resource ',
-        startBtn: 'Start Search',
+        title: 'Configurar parametros',
+        selectRegion: 'Región',
+        selectConstellation: 'Constelacíon',
+        selectSolarSystem: 'Sistema Solar',
+        selectPType: 'Recursos Planetarios ',
+        startBtn: 'Iniciar Busqueda',
 
-        buildCnt: 'Mining Array',
-        buildTime: 'Cost Time',
-        showAllResult: 'All Result',
+        buildCnt: 'Matriz de minería',
+        buildTime: 'Costo en tiempo',
+        showAllResult: 'Todos Los resultados',
 
         data:{
-          o_isk_market: "Market Price",
-          o_isk_system: "System Price",
-          o_volumn: "Ore Volume",
+          o_isk_market: "Precio del Mercado",
+          o_isk_system: "Precio del sistema",
+          o_volumn: "Volumen de mena",
         },
       },
       result:{
-        title: 'Result',
-        emptyResultFound: 'Non useful Planetary Resource found , current condition found zero result, plz change condition and try again',
-        dataContributor: 'The Data of {regionTitle} is contributed by {contributorTitle}, thx',
+        title: 'Resultados',
+        emptyResultFound: 'No se ha encontrado un recurso planetarios util, Las Condiciones de busqueda actual arrojan "cero(0)" resultados, ajusta Bien los Parametros e intentalo de nuevo',
+        dataContributor: 'Los Datos de {regionTitle} Es contribuido por {contributorTitle}, Gracias por brinda la informacíon',
 
         planetLvl:{
           0: '',
@@ -1211,12 +1211,12 @@ const messages =  {
 
         table:{
           title:{
-            item: 'Planetary Resource',
-            sum: 'Sum Price',
+            item: 'Recurso planetario',
+            sum: 'Precio total',
           },
           option:{
-            showItemPrice: 'Show Detail Price',
-            showSumPrice: 'Show Sum Price',
+            showItemPrice: 'Mostrar detalles de precio',
+            showSumPrice: 'Mostrar el total del precio',
           }
         }
       }
@@ -1224,71 +1224,71 @@ const messages =  {
     },
 
     oreView:{
-      title: 'Ore Calculator',
-      subTitle: 'Quickly calculate how many minerals you will obtain from your ore',
-      usageTitle: 'Usage',
-      usageBody: '<ul><li>Select an Ore in "Config Params", and set correct "Ore Count" and "Material Efficiency". The "Result" will show the outputted mineral count.</li><li>"Asteroid belt" is the range where the ore can be found and "Safety level" is the range where the asteroid belt can be found.</li><li>"Ship Volume" is a special param used to calculate how much ore a ship can hold and does not affect the calculations if left blank.</li><li>The ore refining unit is 100, e.g. 199 will only refine 100, leaving 99 remaining.</li><li>Because of decimal points, you may get 1-2 calculated deviation in the result. For example if the result is 135, but in game it\'s 134</li><li>It\'s a personal project all data is manually entered, so if you find anything wrong, just report a bug. The bug report link is in the bottom footer, thx.</li><li><a href="https://www.bilibili.com/video/av80457729/" target="_blank">Operation Video in Chinese</a></li></ul>',
+      title: 'Calculadora de Mena',
+      subTitle: 'Te permitira calcular rapidamente cuantos minerales puedes obtener de tu Mena',
+      usageTitle: 'Uso',
+      usageBody: '<ul><li>Seleccione un mineral en "Parámetros de configuración" y configure  "Cantidad de mena" y la "Eficiencia del material" correctamente. El "Resultado" mostrará la cantidad de minerales generado.</li><li>El "cinturón de asteroides" es el rango donde se puede encontrar el mineral y el "nivel de seguridad" es el rango donde se puede encontrar el cinturón de asteroides.</li><li>"Volumen de carga de Nave" es un parametro especial para calcular cuanta Mena puede llevar una nave y no afecta a la calculadora si dejas ese dato en blanco</li><li>La unidad de refinación de mineral es 100, por Ejemplo de 199 de mena solo refinará 100, dejando 99 ya que solo refina 100 unidades.</li><li>Debido a los puntos decimales, puede obtener 1-2 desviaciones calculadas en el resultado. Por ejemplo, si el resultado es 135, pero en el juego es 134</li><li>Esto es un proyecto personal y todos los datos fueron ingresados manualmente, Si encuentras algun error en la pagina solo reportarlo Gracias</li><li><a href="https://www.bilibili.com/video/av80457729/" target="_blank">Operation Video in Chinese</a></li></ul>',
       config: {
-        title: 'Config Params',
-        selectOre: 'Select Ore ',
-        buildCnt: 'Ore Count',
-        buildVolume: 'Ship Volume',
-        buildCostRate: 'Material Efficiency',
+        title: 'Parámetros de Configuración',
+        selectOre: 'Seleccionar Mena',
+        buildCnt: 'Cantindad de Mena',
+        buildVolume: 'Volumen de carga de la nave',
+        buildCostRate: 'Eficiencia de materiales',
 
         data:{
-          o_isk_market: "Market Price",
-          o_isk_system: "System Price",
-          o_volumn: "Ore Volume",
-          o_asteroidLv: 'Asteroid Lv',
-          o_safeLv: 'Safety Lv',
+          o_isk_market: "Precio en el mercado",
+          o_isk_system: "Precio en el sistema",
+          o_volumn: "Volumen de Mena",
+          o_asteroidLv: 'Asteroide Nvl',
+          o_safeLv: 'Seguridad Nvl',
         },
       },
       result:{
-        title: 'Result',
+        title: 'Resultado',
 
 
         table:{
           title:{
             item: 'Mineral',
             target: 'Target Count',
-            buildResult: 'Collected',
-            left: 'Still Needed',
+            buildResult: 'Colectado',
+            left: 'Recursos faltantes',
             percent: 'Still Needed Rate',
-            sum: 'Sum Price',
+            sum: 'Precio total',
           },
           option:{
-            showItemPrice: 'Show Detail Price',
-            showSumPrice: 'Show Sum Price',
+            showItemPrice: 'Mostrar detalles del precio',
+            showSumPrice: 'Mostrar precio total',
           }
         }
       }
 
     },
     oreMixView:{
-      title: 'Mix Ore Calculator',
-      subTitle: 'The new calculator for Mix Ore, Just Try It.',
+      title: 'Mix Mena Calculadora',
+      subTitle: 'Prueba la Calculadora de mena.',
       usageTitle: 'Usage',
-      usageBody: '<ul><li> Click "+ New Ore" to add new a new ore and quantity</li><li>It\'s used for more than one ore type, useful for ships like the Retriever</li><li>The ore refining unit is 100, e.g. 199 will only refine 100, leaving 99 remaining.</li><li>Because of decimal points, you may get 1-2 calculated deviation in the result. For example if the result is 135, but in game it\'s 134</li><li>It\'s a personal project all data is manually entered, so if you find anything wrong, just report a bug. The bug report link is in the bottom footer, thx.</li></ul>',
+      usageBody: '<ul><li> Click "+ New Ore" to add new a new ore and quantity</li><li>It\'s used for more than one ore type, useful for ships like the Retriever</li><li>The ore refining unit is 100, e.g. 199 will only refine 100, leaving 99 remaining.</li><li>Debido a los puntos decimales, puede obtener 1-2 desviaciones calculadas en el resultado. Por ejemplo, si el resultado es 135,  en el juego es 134</li><li>Esto es un proyecto personal y todos los datos son ingresados manualmente, si encuentras algun error ayudanos a reprotarlos el enlace de reporte de erroes esta en la esquina inferior, gracias..</li></ul>',
       result:{
-        title: 'Result',
+        title: 'Resultado',
 
 
         table:{
           title:{
             item: 'Mineral',
             target: 'Target Count',
-            buildResult: 'Collected',
-            left: 'Still Needed',
+            buildResult: 'Colectado',
+            left: 'Recursos faltantes',
             percent: 'Still Needed Rate',
-            sum: 'Sum Price',
-            cnt: 'Count',
-            rate: ' Efficiency',
-            volume: 'Volume',
+            sum: 'Precio total',
+            cnt: 'Counteo',
+            rate: ' Eficiencia',
+            volume: 'Volumem',
           },
           option:{
-            showItemPrice: 'Show Detail Price',
-            showSumPrice: 'Show Sum Price',
-            addNewOre: '+ New Ore',
+            showItemPrice: 'Mostrar detalles del precio',
+            showSumPrice: 'Mostrar precio total',
+            addNewOre: '+ Nueva Mena',
           }
         }
       }
@@ -1296,39 +1296,39 @@ const messages =  {
     },
 
     vesselDebrisView:{
-      title: 'Vessel Debris Calculator',
-      subTitle: 'Quickly calculate how many Salvaged Material will output from processing the Vessel Debris in your hand',
-      usageTitle: 'Usage',
-      usageBody: '<ul><li>Select one Vessel Debris in "Config Params", and set correct "Vessel Count" and "Material Efficiency". The "Result" section will show the calculated Salvaged Material count.</li><li>The result is rounded, for example with a rate of 2.33: 1 Vessel Debris will output 2 Salvaged Materials, but 10 Vessel Debris will output 23. It\'s good idea to use more Vessel Debris at once.</li><li>The "Material Efficiency" will automatically update from "Select Skill".</li><li>"Target Count", "Still Needed" and "Still Needed Rate" are used for quick calculations.</li><li>It\'s a personal project all data is manually entered, so if you find anything wrong, just report a bug. The bug report link is in the bottom footer, thx.</li><li><a href="https://www.bilibili.com/video/av80457780/" target="_blank">Operation Video in Chinese</a></li></ul>',
+      title: 'Calculadora de restos de nave',
+      subTitle: 'Calcule rápidamente la cantidad de material recuperado que se generará al procesar los escombros de nave que tiene a mano',
+      usageTitle: 'Uso',
+      usageBody: '<ul><l>Seleccione algun resto de nave para "Parámetros de configuración" y configure el "Recuento restos de nave" y la "Eficiencia del material" correctos. La sección "Resultado" mostrará el recuento calculado de material recuperado.</li><li>El resultado se redondea, por ejemplo, con una tasa de 2,33: 1Restos de nave Generará 2 materiales recuperados, pero 10 Restos de naves generarán 23. Es una buena idea utilizar más Restos de nave a la vez.</li><li>La "Eficiencia del material" se actualizará automáticamente al "Seleccionar nivel de habilidad".</li><li>"Cantidad Extraida ", "still needed" y "Tasa aún necesaria" se utilizan para cálculos rápidos.</li><li>Esto es un proyecto perosnal y todos los datos fuenron extraidos manualmente, si ves algun error favor de reportarlo en esquina inferior, gracias</li><li><a href="https://www.bilibili.com/video/av80457780/" target="_blank">Operation Video in Chinese</a></li></ul>',
       config: {
-        title: 'Config Params',
-        selectVesselDebris: 'Select Vessel',
-        buildCnt: 'Vessel Count',
-        buildCostRate: 'Material Efficiency',
-        selectSkill: 'Select Skill',
+        title: 'Configurar parametros',
+        selectVesselDebris: 'Seleccionar Restos de nave',
+        buildCnt: 'Cantidad de Restos',
+        buildCostRate: 'Efficiencia de Material',
+        selectSkill: 'Seleccionar nivel de Habilidad',
 
         data:{
-          vd_isk_market: "Market Price",
-          vd_isk_system: "System Price",
+          vd_isk_market: "Precio en el mercado",
+          vd_isk_system: "Precio en el sistema",
         },
       },
       result:{
-        title: 'Result',
+        title: 'Resultado',
 
 
         table:{
           title:{
-            item: 'Salvaged Material',
-            target: 'Target Count',
-            buildResult: 'Obtained',
+            item: 'Objeto',
+            target: 'Cantidad Extraida',
+            buildResult: 'Cantidad extraida',
             left: 'Still Needed',
             percent: 'Still Needed Rate',
-            sum: 'Sum Price',
+            sum: 'Precio total',
           },
 
           option:{
-            showItemPrice: 'Show Detail Price',
-            showSumPrice: 'Show Sum Price',
+            showItemPrice: 'Mostrar detalles de precio',
+            showSumPrice: 'Mostrar precio total',
           }
         }
       }
@@ -1337,31 +1337,31 @@ const messages =  {
 
     slavagedMaterialView:{
       title: 'Salvaged Material Search',
-      subTitle: 'Quickly Search Salvaged Material\'s source Vessel Debris',
-      usageTitle: 'Usage',
-      usageBody: '<ul><li>Select one Salvaged Material and the tool will show the source Vessel Debris. The "Material Efficiency" will be taken into account.</li><li>The "Material Efficiency" will automatically be populated from the "Select Skill" field.</li><li>It\'s a personal project all data is manually entered, so if you find anything wrong, just report a bug. The bug report link is in the bottom footer, thx.</li></ul>',
+      subTitle: 'Busque rápidamente los escombros de nave para encontrar recursos de origen del material refinado',
+      usageTitle: 'Explicacion a detalle',
+      usageBody: '<ul><li>Seleccione un material de escombro reprocesada y la herramienta mostrará el origen de donde puede salir el escombro de nave. Se tendrá en cuenta la "Eficiencia material".</li><li>La "Eficiencia del material" se completará automáticamente desde el campo "Seleccionar nivel de habilidad".</li><li>Esto es un proyecto personal, todos los datos se ingresan manualmente, por lo que si encuentra algun dato incorrecto, ayudanos reportandolo con un informe de error. El enlace del informe de errores está en el pie de página inferior, gracias</li></ul>',
       config: {
-        title: 'Config Params',
-        selectVesselDebris: 'Salvaged Material',
-        buildCostRate: 'Material Efficiency',
-        selectSkill: 'Select Skill',
+        title: 'Configurar Parametros',
+        selectVesselDebris: 'Chatarra reprocesada',
+        buildCostRate: 'Efficiencia de Material',
+        selectSkill: 'Seleccione nivel de Habilidad',
 
         data:{
-          isk_market: "Market Price",
-          isk_system: "System Price",
+          isk_market: "Precio de Mercado",
+          isk_system: "Precio del sistema",
         },
       },
       result:{
-        title: 'Result',
+        title: 'Resultados',
 
 
         table:{
           title:{
-            item: 'Vessel Debris',
+            item: 'Restos de nave',
           },
 
           option:{
-            showItemPrice: 'Show Detail Price',
+            showItemPrice: 'Mostrar detalles de precio',
           }
         }
       }
@@ -1370,107 +1370,107 @@ const messages =  {
 
     rigSelector:{
       config: {
-        selectRig: 'Select Rig',
-        filteredRigCategory: 'Select Category',
+        selectRig: 'Seleccionar modificador',
+        filteredRigCategory: 'Seleccionar Categoria',
       },
     },
 
     rigView:{
-      title: 'Rig Build Calculator',
-      subTitle: 'You can calculate rigs\' Salvaged Material count here.',
+      title: 'Modificadores',
+      subTitle: 'Aqui puede Calcular Modificadores/ Conteo de Materiales para crear Modificadores.',
 
-      usageTitle: 'Usage',
-      usageBody: '<ul><li>FYI, building is only possible if your Tech Level is high enough, so check your Tech Level first!</li><li>Select a rig in "Config Params", then set correct "Build Count", "Material Efficiency", "Time Efficiency". See what materials you need in "Result".</li><li>It\'s a personal project all data is manually entered, so if you find anything wrong, just report a bug, the bug report link is in the bottom footer, thx.</li></ul>',
+      usageTitle: 'Explicación a Detalle',
+      usageBody: '<ul><li>Para su información, la construcción solo es posible si su nivel tecnológico es lo suficientemente alto, ¡así que verifica tu nivel tecnológico primero!</li><li>Seleccione un equipo en "Parámetros de configuración", luego configure correctamente "Cantidad a Construir", "Eficiencia de material", "Eficiencia de tiempo" y Vea qué materiales necesita en "Resultado".</li><li>Esto es un proyecto personal, todos los datos se ingresan manualmente, por lo que si encuentra algun dato incorrecto, ayudanos reportandolo con un informe de error. El enlace del informe de errores está en el pie de página inferior, gracias</li></ul>',
       config: {
-        title: 'Config Params',
-        selectRig: 'Select Rig',
-        buildCnt: 'Build Count',
-        buildCostRate: 'Material Efficiency',
-        buildTimeRate: 'Time Efficiency',
+        title: 'Configurar parametros',
+        selectRig: 'Seleccionar modificador',
+        buildCnt: 'Cantidad a Construir',
+        buildCostRate: 'Eficiencia de Material',
+        buildTimeRate: 'Eficiencia de tiempo',
 
         data:{
-          r_isk_market: "Market Price",
-          r_isk_system: "System Price",
+          r_isk_market: "Precio del mercado",
+          r_isk_system: "Precio del sistema",
 
-          rb_techLvl: "Tech Level",
-          rb_isk_build: "Build ISK",
-          rb_time_build: "Build Time",
-          rb_isk_market: "BP Market Price",
-          rb_isk_system: "BP System Price",
+          rb_techLvl: "Nivel Tecno",
+          rb_isk_build: "Construcción en ISK",
+          rb_time_build: "Tiempo de Construccion",
+          rb_isk_market: "Precio del plano en el mercado",
+          rb_isk_system: "Precio del plano en el sistema",
         },
       },
       result:{
-        title: 'Result',
+        title: 'Resultados',
 
         table:{
           title:{
-            item: 'Salvaged Material',
-            inhand: 'In Hand',
-            buildResult: 'Build Requirement',
-            need: 'Still Need',
-            percent: 'In Hand Rate',
-            sum: 'Sum',
+            item: 'Chatarra reprocesada',
+            inhand: 'En mano',
+            buildResult: 'Requisitos de Construcción',
+            need: 'Material necesario',
+            percent: 'En mano Rate',
+            sum: 'Total',
           },
           option:{
-            showItemPrice: 'Show Detail Price',
-            showSumPrice: 'Show Sum Price',
+            showItemPrice: 'Mostrar detalles del precio',
+            showSumPrice: 'Mostrar detalle total del precio',
           }
         }
       }
     },
 
     skillPointView:{
-      title: 'Skill Point Calculator',
-      subTitle: 'You can calculate how much time it takes to reache your Skill Point goals',
+      title: 'Calculadora de puntos de Habilidad',
+      subTitle: 'Puede calcular cuánto tiempo te lleva alcanzar el objetivo de puntos de habilidad',
 
-      usageTitle: 'Usage',
-      usageBody: '<ul><li>Set your "Start Points" and your "Target Points" in the "Config Params" section, the time required will be displayed in the "Result" section.</li><li>Selecting a "Tech Level" will automatically set "Target Points"</li><li>"Get Point" is your rate of Skill Points per minute, "Time Efficiency" is a percentage of "Get Point"</li><li>"Extra Points" is for extra skill points per day. This value will attach to "Points per min", then be used in the calculation</li><li>Tech Level data collected by the volunteer "Fish Lord" in our Volunteer Group, thx for him. If you find anything wrong, just report a bug using the link in the footer.</li></ul>',
+      usageTitle: 'Explicacion a detalle',
+      usageBody: '<ul><li>Establezca sus "Puntos de inicio" y sus "Puntos Objetivo" en la sección "Parámetros de configuración", el tiempo requerido se muestra en la sección "Resultado".</li><li>Al seleccionar un "Nivel técnico", se establecerá automáticamente "Puntos Objetivo"</li><li>"Obtener puntos" es su tasa de puntos de habilidad por minuto, "Eficiencia de tiempo" es un porcentaje de "Obtener puntos"</li><li>"puntos extra" es para habilidad de puntos extra al dia, este valor se Adjuntará a "por munito" y luego se utilizara en el calculo</li><li>Datos de nivel tecnológico recopilados por el voluntario "Fish Lord" en nuestro grupo de voluntarios, gracias por él. Si encuentra algo incorrecto, simplemente informe un error utilizando el enlace en el pie de página.</li></ul>',
       config: {
-        title: 'Config Params',
-        selectSkill: 'Tech Level',
-        startSkillPoint: 'Start Points',
-        endSkillPoint: 'Target Points',
-        min: 'Min',
-        day: 'Day',
+        title: 'Configurar parametros',
+        selectSkill: 'Nivel tecno',
+        startSkillPoint: 'Puntos de inicio',
+        endSkillPoint: 'Puntos Objetivo',
+        min: 'Minunto',
+        day: 'Dias',
 
-        skillMinPoint: 'Points per min',
-        skillTimeRate: 'Time Efficiency',
-        skillDailyPoint: 'Extra Points',
+        skillMinPoint: 'Puntos por minuto',
+        skillTimeRate: 'Eficiencia de tiempo',
+        skillDailyPoint: 'Puntos extra',
       },
       result:{
-        title: 'Result',
-        needPoint: 'Sum Point',
-        finallyMinPoint: 'Total points per min',
-        needMin: 'Min',
-        needHour: 'Hour',
-        needDay: 'Day',
+        title: 'Resultados',
+        needPoint: 'Puntos totales',
+        finallyMinPoint: 'puntos totales por minuto',
+        needMin: 'Minutos',
+        needHour: 'Hora',
+        needDay: 'Dia',
 
       }
     },
 
     shipConfigView:{
-      title: '[Beta]Ship Config Calculator',
-      subTitle: 'Manage ship config plan on web, share and discuss ship config plan via URL, light and fast',
-      usageTitle: 'Usage',
-      bodyText: '<ul><li>After 3 months, this version was finally completed. The current version has integrated some data from the public test. Here are some functional descriptions: </li><li>Completed content: <ol><li>View ship properties</li><li>View equipment properties</li><li>View rig properties</li><li>View drone properties</li><li>Save ship config plan</li><li>Manage ship config plan</li><li>Share ship config plan via url</li></ol></li><li>Unfinished content: <ol><li>Skills not add, it will be added after the server is opened</li><li>The formula calculation is not accurate. Considering the subsequent modification, we will start to improve it 1 month after the server is opened</li><li>Equipment Active, via formula adjust</li></ol></li> <li>Our ultimate goal is to complete the ship config on web page. Open the URL and you can see the ship config plan and everyone\'s discussion, so that newbie players can easily copy and use, company/team players can easily communicate and unified configuration , and let the master players enjoy it</li><li>English Translate are still under going, will finish it ASAP.</li></ul>',
+      title: '[Beta]Calculadora de Configuracion de Naves',
+      subTitle: 'Administre el plan de configuración de la nave en la web, comparte el link  y discuta el plan de configuración de la nave a través de una URL, de forma ligera y rápida',
+      usageTitle: 'Explicacion a detalee',
+      bodyText: '<ul><li>Después de 3 meses, finalmente se completó esta versión. La versión actual ha integrado algunos datos de la prueba pública. Aquí hay algunas descripciones funcionales: </li><li>contenido completo: <ol><li>Ver Propiedades del barco</li><li>Ver propiedades del equipo</li><li>Propiedades de los modificadores</li><li>Ver propiedades de los Drones</li><li>Guardar configuracion del equipamiento de la nave</li><li>Administrar Configuraciones de las naves</li><li>Compartir la configuración de la nave mediante de URL</li></ol></li><li>Contenido en Desarrollo: <ol><li>No se han añadido habilidades y se agregaran cuando se abra el servidor,</li><li>El cálculo de la fórmula no es exacto. Teniendo en cuenta la modificación posterior, comenzaremos a mejorarlo 1 mes después de que se abra el servidor</li><li>Equipo activo, mediante ajuste de fórmula</li></ol></li> <li>Nuestro objetivo final es completar la configuración del barco en la página web. Abra la URL y que pueda ver el plan de configuración del barco y la discusión de todos, para que los nuevos jugadores puedan copiar y usar fácilmente, los jugadores de la empresa / equipo puedan comunicarse fácilmente y la configuración sea unificada, y dejar que los jugadores maestros disfruten las modificaciones</li><li>La pagina todavia esta en proceso de traduccion(por parte del idioma en ingles) y se terminara lo pornto antes psolbie</li></ul>',
       config: {
-        title : 'Config Params',
+        title : 'Parametros de configuracion',
         btn : {
-          showEditoForm: 'Edit Attribute',
-          showItemDetail: 'Show All Detail',
-          collect: 'Favorite',
-          save: 'Save',
-          reset: 'Refresh',
+          showEditoForm: 'Cambiar atributos',
+          showItemDetail: 'Mostrar todos los detalles',
+          collect: 'Favoritos',
+          save: 'Guardar',
+          reset: 'Refrescar',
         },
         form: {
-          categoryId: 'Category',
+          categoryId: 'Categoria',
           desc: 'Desc',
-          shortDesc: 'Short Desc',
+          shortDesc: 'Corta Desc',
         },
       },
 
       msg:{
-        saved: 'Saved!',
+        saved: '!Guardado!',
       },
 
       item:{
@@ -1487,15 +1487,15 @@ const messages =  {
       },
 
       skill:{
-        title: 'Set Skill',
-        small: '[NOT USE] Select skills and set levels to see the data change',
+        title: 'Ajustar Habilidades',
+        small: '[NO UTILICE] Seleccione habilidades y establezca niveles para ver el cambio de datos',
 
         newBtn: '+ New Skill',
       },
 
       condition:{
         title: 'Set Param',
-        small: '[NOT USE] Other params will effect ship attributes',
+        small: '[NO Utilice] Other params will effect ship attributes',
 
         newBtn: '+ New Param',
       },
@@ -1503,50 +1503,50 @@ const messages =  {
 
       resultBox: {
         topInfo: {
-          powergrid: 'Powergrid',
-          capa_cargo: 'Cargo Capacity',
-          capa_ore: 'Ore Capacity',
-          capa_logistics: 'Logistics Capacity',
+          powergrid: 'Suministro de red de Energia',
+          capa_cargo: 'Capacidad de carga',
+          capa_ore: 'Capacidad de Mena',
+          capa_logistics: 'Capacidad de logistica',
 
-          skillBonus: 'Skill Bonus',
-          specialBonus: 'Special Bonus',
+          skillBonus: 'Bonus de Habilidad',
+          specialBonus: 'Bonus especiales',
         },
         attack: {
-          title: 'Attack',
-          missile: 'Missile',
-          battery: 'Turret',
-          drone: 'Drone',
-          mining: 'Mining',
+          title: 'Atacar',
+          missile: 'Missiles',
+          battery: 'Cañones',
+          drone: 'Drones',
+          mining: 'Mineria',
         },
         defense: {
-          title: 'Defense',
-          shield:'Shield',
-          armor:'Armor',
-          structure:'Structure',
+          title: 'Defensa',
+          shield:'Escudos',
+          armor:'Blindaje',
+          structure:'Estructuras',
         },
         capacity: {
-          title: 'Capacity',
-          hcsj: 'Recharge Time',
-          zdhc: 'Max Recharge',
+          title: 'Capacidad',
+          hcsj: 'Tiempo de Recargas',
+          zdhc: 'Recarga Maxima',
         }, 
         radar: {
           title: 'Radar',
 
-          target: 'Max Target',
+          target: 'Maximo de fijación de Objetivos',
           signatureRadius: 'Signature Radius',
-          scanResolution: 'Resolution',
-          induction: 'Induction',
+          scanResolution: 'Resolusión',
+          induction: 'Inducción',
         }, 
         navigation: {
-          title: 'Navigation',
+          title: 'Navegación',
           warpAgainst: 'Warp Against',
-          warpSpeed: 'Warp Speed',
+          warpSpeed: 'Velocidad de Salto',
           inertiaModifier: 'Inertia Modifier',
           mass: 'Mass',
         }, 
         price: {
-          title: 'Price',
-          ship: 'Ship',
+          title: 'Prercio',
+          ship: 'Neve',
         }, 
 
       },
@@ -1571,18 +1571,18 @@ const messages =  {
     },
 
     donateView:{
-      title: 'Donate for iEVE',
-      subTitle: 'Your Donation will make iEVE better!',
+      title: 'Donaciones para for iEVE',
+      subTitle: 'Tu donacion hara de iEVE Mejor!',
       topbar:{
         title: 'Explain',
         subTitle: '',
-        bodyText:'<p>iEVE is a free charity project, donations can make it a more stable operation. Here you can join the team that supports iEVE, I believe it will be better if you support it!</p><p>Currently we support in-game donations and cash donations, voluntary donations are not forced, and minors’ donations are rejected.</p><p>In-game donations are very encouraged. Our data volunteers work very hard, and they sacrifice a lot of private time to improve the data. We hope that players in the community can express their affirmation and gratitude to them through in-game donations.</p>',
+        bodyText:'<p>iEVE Es un un proyecto caritativo, Las donaciones hacen mas estable las operaciones. Puedes entrar en el equipo de soporte de iEVE aqui,Confio en que estaremos mejor con tu ayuda</p><p>Currently we support in-game donations and cash donations, voluntary donations are not forced, and minors’ donations are rejected.</p><p>In-game donations are very encouraged. Our data volunteers work very hard, and they sacrifice a lot of private time to improve the data. We hope that players in the community can express their affirmation and gratitude to them through in-game donations.</p>',
         donateLinkText: '>>> Donor List <<<',
       },
       inGame:{
-        title: 'In-Game Donate',
-        subTitle: 'Donations made directly in the game',
-        bodyText:'<p>Just make a contact to <span class=\'text-green\'>ieve</span> then we will get your donation(ISK, Plex, Equipment), the role name is <span class=\'text-green\'>ieve</span> No capital, no sign, no spaces!!</p><p>Will accept contract regularly at 1:00 and 13:00 UTC every day, also will confirm it when I see it at other times</p><p>Your donation will be given to volunteers who provide services for iEVE free of charge. I believe they will feel warm with every donation!</p>',
+        title: 'Donaciones En juego',
+        subTitle: 'Donaciones hechas directamente en el juego de Eve Echoes',
+        bodyText:'<p>Solo contactate a <span class=\'text-green\'>ieve</span> Luego da tu donacion en (ISK, Plex, Equipamiento),El nombre de usuario es <span class=\'text-green\'>ieve</span> ¡Sin mayúsculas, sin letreros, sin espacios!!!</p><p>Aceptamos los contratos relgularmente a las 1:00 and 13:00 UTC Todos los dias, también lo confirmaré cuando lo vea en otras ocasiones</p><p>Su donación se entregará a los voluntarios que brinden servicios para iEVE sin cargo. ¡Creo que se sentirán cálidos con cada donación!!</p>',
       },
       paypal:{
         title: 'PayPal Donate',
@@ -1602,189 +1602,189 @@ const messages =  {
     },
 
     monumentView:{
-      title: 'Monument',
-      subTitle: 'iEVE would not be better without you.',
+      title: 'Conmemoraciones',
+      subTitle: 'iEVE No pudo ser menjor sin ti.',
       topbar:{
-        title: 'Explanation',
+        title: 'Explicacion a detalle',
         subTitle: '',
-        bodyText:'<ul><li>I want to remember everyone who has helped iEVE.</li><li>All manual data, if you have anything wrong, please contact me.</li><li>Show data as default option, if you want to hide your data please contact me, thank you.</li></ul>',
+        bodyText:'<ul><li>Quiero recordar a todos los que han ayudado a iEVE.</li><li>Todos los datos son escritos manualmente, si tiene algún problema, contácteme(todo texto escrito en Ingles).</li><li>Muestro sus datos como opción predeterminada, si desea ocultarlo, contácteme, gracias, thank you.</li></ul>',
       },
       typeTitle:{
-        t1: 'Special Thx',
-        t11: 'Volunteer',
-        t21: 'Donor',
+        t1: 'Agradecimientos especiales',
+        t11: 'Voluntarios',
+        t21: 'Donaddores',
       },
       table:{
         title:{
-          title: 'Name',
-          desc: 'Short Desc',
-          p_minusCnt: 'Total minutes contributed',
-          p_startDate: 'Join Date',
-          p_donateAmount: 'Total donation',
-          p_donateDate: 'Donate Date',
+          title: 'Nombre',
+          desc: 'Descricion corta',
+          p_minusCnt: 'Minutos totales contribuidos',
+          p_startDate: 'Fecha de entrada',
+          p_donateAmount: 'donacion total',
+          p_donateDate: 'Fecha de donación',
         },
       },
     },
 
     quickTableOreView:{
-      title: 'Ore Quick Table',
-      subTitle: 'Find Ore Output Quickly',
+      title: 'Tabla rapida de Mena',
+      subTitle: ' Busqueda de Mena rapida',
       bodyText: '',
 
       oreConfig: {
-        title: 'Params Config',
-        title_rate: 'Set Ore Efficiency',
-        title_rate_small: 'Only need set following Ore Efficiency, other ores use the same efficiency',
-        title_oreOpen: 'Ore constraints',
-        title_oreOpen_small: 'Only calculates ores set to "Yes" ',
+        title: 'Parametros de configuracion',
+        title_rate: 'Ajustar eficiencia de mena',
+        title_rate_small: 'Solo necesita establecerse siguiendo la eficiencia del mineral, otros minerales usan la misma eficiencia',
+        title_oreOpen: 'Ajustes de renstricciones',
+        title_oreOpen_small: 'solo se calcularán las menas ajustadas en "si" ',
         otherConfig:{
-          title: 'Other Params',
-          title_small: 'Set other params for better usage',
+          title: 'otros parametros',
+          title_small: ' ajusta otros paramentros para mejor uso',
           showType: {
-            title: 'Show Type',
-            unit: 'with 1 unit',
-            volume: 'with 1 volume',
+            title: 'Mostrar tipo',
+            unit: 'con 1 unidad',
+            volume: 'con 1 volumen',
           }, 
         }
       },
 
       table:{
         title:{
-          o_title: 'Title',
-          o_volumn: 'Volume',
-          o_asteroidLv: 'Asteroid Lv',
-          o_safeLv: 'Safety Lv',
+          o_title: 'Titulo',
+          o_volumn: 'Volumen',
+          o_asteroidLv: 'nivel de asteroide',
+          o_safeLv: 'Nivel de seguridad',
           o_: '',
         }
       },
     },
 
     quickTableVesselDebrisView:{
-      title: 'Vessel Debris Quick Table',
-      subTitle: 'Find Vessel Debris Output Quickly',
+      title: 'Tabla rapida de chatarra reprocesada',
+      subTitle: 'busca la chatarra reprocesada rapidamente',
       bodyText: '',
 
       config: {
-        title: 'Config Params',
-        buildCostRate: 'Material Efficiency',
-        selectSkill: 'Select Skill',
+        title: 'configurar parametros',
+        buildCostRate: 'Eficiencia de Materiales',
+        selectSkill: 'Seleccionar Habilidades',
         race: {
-          title: 'Set Race',
-          title_small: 'Only show debris when race is "Yes" ',
+          title: 'Ajustar Raza',
+          title_small: 'solo mostrar escombros de nave si estan en "Si" ',
         },
       },
 
       table:{
         title:{
-          vd_title: 'Title',
+          vd_title: 'Titulo',
         }
       },
     },
 
     quickTablePaymentPlanView:{
-      title: 'Payment Plan Quick Table',
-      subTitle: 'Quickly Find Payment Plan',
+      title: 'Tabla rapida de plan de pago',
+      subTitle: 'Te permitira una busqueda rapida de plan de pago en el juego(por ahora la pagina solo administra dolares USD pueda que pronto en moneda mexicana MXN)',
       bodyText: '',
 
       config: {
-        title: 'Config Params',
-        resultUnit: 'Result Unit',
+        title: 'Configurar Parametros',
+        resultUnit: 'Resultados unidad',
       },
 
       table:{
         title:{
-          techLv_title: 'Tech Lv',
-          pointPerMin: ' SP/Min',
+          techLv_title: 'Nivel Tecno',
+          pointPerMin: '  PH/Min',
         }, 
         data:{
-          firstMonthFee: 'First Month Fee',
-          secondMonthFee: 'Second Month Fee',
-          fourMonthFee: 'Four Monthes Fee',
-          firstYearFee: 'First Year Fee',
+          firstMonthFee: 'Cuota del primer mes',
+          secondMonthFee: 'Cuota del segundo mes',
+          fourMonthFee: 'Cuota del Cuarto mes',
+          firstYearFee: 'Cuota del primer año',
         }
       },
       tableEx:{
         title:{
-          ex_title: 'SP/Min',
-          ex_body: 'Desc',
+          ex_title: 'PH/Min',
+          ex_body: 'Descripcion',
           
         }, 
         data:{
-          pointPerMin: ' SP/Min',
+          pointPerMin: ' PH/Min',
           m_30_body: 'Alpha',
           m_35_body: 'Omega 5',
-          m_40_body: 'Omega 5 + Book I($1.99)',
-          m_45_body: 'Omega 5 + Book I($1.99) + Book II($5.99)',
-          m_50_body: 'Omega 5 + Book I($1.99) + Book II($5.99) + Book III($29.99)',
-          m_60_body: 'Omega 25 + Book I($1.99)',
-          m_65_body: 'Omega 25 + Book I($1.99) + Book II($5.99)',
-          m_70_body: 'Omega 5 + Omega 25 + Book I($1.99) + Book II($5.99)',
-          m_75_body: 'Omega 5 + Omega 25 + Book I($1.99) + Book II($5.99) + Book III($29.99)',
+          m_40_body: 'Omega 5 + Libro I($1.99)',
+          m_45_body: 'Omega 5 + Libro I($1.99) + libro II($5.99)',
+          m_50_body: 'Omega 5 + Libro I($1.99) + Libro II($5.99) + Libro III($29.99)',
+          m_60_body: 'Omega 25 + Libro I($1.99)',
+          m_65_body: 'Omega 25 + Libro I($1.99) + Libro II($5.99)',
+          m_70_body: 'Omega 5 + Omega 25 + Libro I($1.99) + Libro II($5.99)',
+          m_75_body: 'Omega 5 + Omega 25 + Book I($1.99) + Libro II($5.99) + Libro III($29.99)',
         }
       },
     },
 
     newsView:{
       title: 'iEVE News',
-      subTitle: 'Official Announcement, Gossip, Legion Recruitment, Rich Player\'s AD, all in iEVE News',
+      subTitle: 'Anuncio oficial, chismes, reclutamiento de la Legión, anuncio de jugador rico, todo en iEVE News',
     },
 
     marketView:{
-      title: 'iEVE Market',
-      subTitle: 'Not easy to make deals online? Using our iEVE Market, just leave message on the board, you will get contact soon. Fast, efficient, open, transparent!',
+      title: 'iEVE Mercado',
+      subTitle: '¿No es fácil hacer negocios online? Usando nuestro iEVE Market, simplemente deje un mensaje en el tablero, pronto se pondrá en contacto. Rápido, eficiente, abierto, transparente!',
     },
 
     onlineMarketView:{
-      title: '[Alpha]Online Market',
-      subTitle: 'See market info one web, no need to open the game. Quick, Easy, Simple',
+      title: '[Alpha]Mercado en linea',
+      subTitle: 'Consulta la información del mercado en una web, no es necesario abrir el juego. Rápido, Fácil, Simple y sensillo',
 
     },
     onlineMarketDetailModal:{
       title:{
-        buy : 'Buyer',
-        sell : 'Seller',
-        history : 'History Price',
+        buy : 'Comprador',
+        sell : 'Vendedor',
+        history : 'Precio Historico',
       },
       buy:{
         title:{
           regionTitle: 'Region',
-          amount: 'Amount',
-          price: 'Price',
-          location: 'Location',
-          expiredAt: 'Expired At',
-          updateAt: 'Update At',
+          amount: 'Cantidad',
+          price: 'Prercio',
+          location: 'Ubicacion',
+          expiredAt: ' Expira el',
+          updateAt: 'Se Actualiza en',
         }
       },
       sell:{
         title:{
           regionTitle: 'Region',
-          amount: 'Amount',
-          price: 'Price',
-          location: 'Location',
-          expiredAt: 'Expired At',
-          updateAt: 'Update At',
+          amount: 'Cantidad',
+          price: 'Precio',
+          location: 'ubicacion',
+          expiredAt: 'Expira el',
+          updateAt: 'Se Actualiza en',
         }
       },
       history:{
         zoom: {
-          title: 'Quick Select',
-          oneW: '1 Week',
-          oneM: '1 Month',
-          threeM: '3 Months',
-          sixM: '6 Months',
+          title: 'Seleccion rapida',
+          oneW: '1 Semana',
+          oneM: '1 Mes',
+          threeM: '3 Meses',
+          sixM: '6 Meses',
           ytd: 'YTD',
-          oneY: '1 Year',
-          all: 'All',
+          oneY: '1 año',
+          all: 'Todo',
         },
         series:{
-          dailyAveragePrice: 'Daily Average Price',
-          minMax: 'Max/Min Price',
-          moving5: '5 Days Average Price',
-          moving20: '20 Days Average Price',
-          donchain: 'Price Change Range',
-          volume: 'Sell Volume',
-          orderCount: 'Order Count',
-          volumePerOrder: 'Single Order Price',
+          dailyAveragePrice: 'Precio promedio Diario',
+          minMax: 'Max/Min Prercio',
+          moving5: 'Precio promedio de hace 5 dias',
+          moving20: 'Average Price Precio promedio de hace 20 dias',
+          donchain: 'Rango de cambio de precio',
+          volume: 'Vender Volumen',
+          orderCount: 'Conteo de Orden',
+          volumePerOrder: 'Precio de pedido único',
         }
       },
 
@@ -1792,58 +1792,58 @@ const messages =  {
 
 
     myShipConfigCategoryView:{
-      title: 'My Ship Config Category',
-      subTitle: 'Manage My Ship Config Category',
+      title: 'Categoria de configuracion de mi nave',
+      subTitle: 'administrar la configuracion de mi nave',
       table:{
         title:{         
-          scc_title: 'Title',
+          scc_title: 'Titlulo',
           scc_desc: 'Desc',
         }
       }
     },
     shipConfigCategoryView:{
       modal:{
-        title: 'Title',
+        title: 'Titulo',
         desc: 'Desc',
       },
     },
     myShipConfigView:{
-      title: 'My Ship Config',
-      subTitle: 'Manage My Ship Config',
+      title: 'Configuracion de mi nave',
+      subTitle: 'Administra la configuracion de tu nave Administra tu confiugracion de nave',
       table:{
         title:{         
-          s_title: 'Ship Title',
-          scc_title: 'Category',
-          sc_shortDesc: 'Short Desc',
-          sc_creationDate: 'Creation Date',
-          sc_updateDate: 'Update Date',
+          s_title: 'Nombre de Nave',
+          scc_title: 'Categoria',
+          sc_shortDesc: 'Descricion',
+          sc_creationDate: 'Fecha de Creacion',
+          sc_updateDate: 'Fecha de Actualziacion',
         }
       }
     },
     myShipConfigCollectionView:{
-      title: 'Favorited Ship Config',
-      subTitle: 'Manage Favorited Ship Config',
+      title: 'Configuracion de Naves Favoritas',
+      subTitle: 'Administrar configuracion de nave favoria',
       table:{
         title:{         
-          s_title: 'Ship Title',
-          scc_title: 'Category',
-          sc_shortDesc: 'Short Desc',
-          sc_creationDate: 'Creation Date',
-          sc_updateDate: 'Update Date',
+          s_title: 'Nombre de Nave',
+          scc_title: 'Categoria',
+          sc_shortDesc: 'Descripcion',
+          sc_creationDate: 'Fecha de creacion',
+          sc_updateDate: 'Fecha de actualizacion',
         }
       }
     },
     myShipConfigLikeView:{
-      title: 'Reviewed Ship Config',
-      subTitle: 'Manage Reviewed Ship Config',
+      title: 'Reviewed de la configuracion de la nave',
+      subTitle: 'Ship Config administrar el reviewe de la configuracion nave',
       table:{
         title:{         
-          s_title: 'Ship Title',
-          scl_type_id: 'Type',
-          scc_title: 'Category',
-          sc_shortDesc: 'Short Desc',
-          sc_creationDate: 'Creation Date',
-          sc_updateDate: 'Update Date',
+          s_title: 'Titulo de Nave',
+          scl_type_id: 'Tipo',
+          scc_title: 'Categoria',
+          sc_shortDesc: 'Descripcion',
+          sc_creationDate: 'Fecha de Creación',
+          sc_updateDate: 'Fecha de Actualización',
         }
       }
     },
@@ -1851,30 +1851,30 @@ const messages =  {
 
     myTopicListView:{
       title: 'My Topic List',
-      subTitle: 'Manage published topics',
+      subTitle: 'Administrar temas publicados',
       modal:{
         t_type_id: 'Type',
-        t_cnt_publishDay: 'Add Show Days',
-        t_cnt_publishDay_hint: 'Account balance not enough, cannot pay for it, plz recharge',
-        costPrice: 'Add Day Cost',
-        accountBalance: 'Account Balance',
-        t_title: 'Title',
-        t_title_hint: 'Title is empty or large than 45',
-        t_shortDesc: 'Short Desc',
-        t_shortDesc_hint: 'Short Desc is empty or large than 100',
-        t_desc: 'Content',
-        t_desc_hint: 'Content is empty or large than 1000',
+        t_cnt_publishDay: 'Agregar días de espectáculo ',
+        t_cnt_publishDay_hint: 'El saldo de la cuenta no es suficiente, no se puede pagar, por favor recargue',
+        costPrice: 'Agregar costo diario',
+        accountBalance: 'Saldo de la cuenta',
+        t_title: 'Titulo',
+        t_title_hint: 'El título está vacío o es mayor que 45',
+        t_shortDesc: 'Desc',
+        t_shortDesc_hint: 'La descripción corta está vacía o tiene más de 100',
+        t_desc: 'Contenido',
+        t_desc_hint: 'El contenido está vacío o tiene más de 1000',
       },
       table:{
         title:{         
           t_id: 'ID',
-          t_type_id: 'Type',
-          t_title: 'Title',
-          t_shortDesc: 'Short Desc',
-          t_startDate: 'Show Start Date',
-          t_endDate: 'Show End Date',
-          t_creationDate: 'Creation Date',
-          t_updateDate: 'Update Date',
+          t_type_id: 'Tipo',
+          t_title: 'Titulo',
+          t_shortDesc: ' Desc',
+          t_startDate: 'Mostrar fecha de inicio',
+          t_endDate: 'Mostrar fecha de finalización',
+          t_creationDate: 'fecha de creación',
+          t_updateDate: 'Fecha de actualizacion',
         }
       }
     },
