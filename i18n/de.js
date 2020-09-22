@@ -885,8 +885,8 @@ const messages =  {
     },
     devPlan:{
       title: 'Dev Plan',
-      subTitle: '202007 Finally Test Data Collect Plan',
-      body:'<ul><li class="text-green">[Complete] Ship Blueprint research material data</li><li class="text-green">[Complete] Ore refining data</li><li class= "text-green">[Complete] Vessel Debris Refining Data</li><li class="text-green">[Complete] Ship building material data</li><li class="text-green">[Complete] Rig building material data</li><li>[Not started] Planetary resource output data (this data is very large and requires more time)</li><li class="text-green ">[Complete] Ship attribute data used for ship config</li><li class="text-green">[Complete] Equipment attribute data used for ship config</li></ul>',
+      subTitle: '202008 Data Collect Plan',
+      body:'<ul><li class="text-green">[Complete] Ship Blueprint research material data</li><li class="text-green">[Complete] Ore refining data</li><li class= "text-green">[Complete] Vessel Debris Refining Data</li><li class="text-green">[Complete] Ship building material data</li><li class="text-green">[Complete] Rig building material data</li><li class="text-green">[Complete] Planetary resource output data (this data is very large and requires more time)</li><li class="text-green ">[Complete] Ship attribute data used for ship config</li><li class="text-green">[Complete] Equipment attribute data used for ship config</li></ul>',
     },
 
     login:{
@@ -997,7 +997,7 @@ const messages =  {
       welcome: {
         title: 'Welcome to iEVE the EVE Echoes online Tools Box',
         subTitle: 'You can find EVE Echoes\'s online tools here.',        
-        body: '<p class="text text-green">20200813 server is officially opened, I wish you all the best. We are improving various data, please see the development plan below for details</p><p>Many data updates need to be performed after the server is turned on, and our volunteers are ready.</p>',
+        body: '<p class="text ">After one month data work, the basic data work has been completed, and more functions will be added in the future. I wish you all the best. Welcome to share us your suggestions. </p>',
       },
 
     },
