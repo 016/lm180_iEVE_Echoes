@@ -8,8 +8,8 @@ Right now we only have i18n translate code in the repo for our translators
 - [x] en.js(English) - finish first version, ready for use
 - [ ] de.js(German) - already found translator, will start translating soon.
 - [ ] pt.js(Portuguese) - already found translator, will start translating soon.
-- [ ] es.js(Spanish) - already found translator, will start translating soon.
-- [ ] fr.js(French) - looking for translator.
+- [x] es.js(Spanish) - finish first version, ready for use
+- [x] fr.js(French) - finish first version, ready for use
 - [ ] ru.js(Russian) - looking for translator.
 
 ## join us?
