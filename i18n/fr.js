@@ -151,7 +151,7 @@ const messages =  {
         }
       },
       power: {
-        title: 'Toureles à énergie',
+        title: 'Tourelles à énergie',
         mcjg:{
           s: 'Petits Lasers à Impulsions',
           m: 'Lasers à Impulsions Intermédiaires',
@@ -181,7 +181,7 @@ const messages =  {
         }
       },
       mining: {
-        title: 'Equiopement de collecte',
+        title: 'Equipement de collecte',
         ckjg:'Laser d\'extraction',
         ltck:'Laser d\'extraction intensive',
       },
@@ -238,18 +238,18 @@ const messages =  {
         xl: 'Très Grands Neutralisateurs d\'énergie',
       },
       ychdhc: {
-        title: 'Remote Shield Booster',
-        s: 'Small Remote Shield Booster',
-        m: 'Medium Remote Shield Booster',
-        l: 'Large Remote Shield Booster',
-        xl: 'Extra Large Remote Shield Booster',
+        title: 'Booster de bouclier à distance',
+        s: 'Petits Booster de bouclier à distance',
+        m: 'Booster de bouclier à distance Intermédiaires',
+        l: 'Grands Booster de bouclier à distance',
+        xl: 'Très Grands Booster de bouclier à distance',
       },
       yczjwx: {
-        title: 'Remote Armor Repairer',
-        s: 'Small Remote Armor Repairer',
-        m: 'Medium Remote Armor Repairer',
-        l: 'Large Remote Armor Repairer',
-        xl: 'Extra Large Remote Armor Repairer',
+        title: 'Réparateur de blidage à distance',
+        s: 'Petits Réparateur de blidage à distance',
+        m: 'Réparateur de blidage à distance Intermédiaires',
+        l: 'Grands Réparateur de blidage à distance',
+        xl: 'Très Grands Réparateur de blidage à distance',
       },
       qthdhc: {
         title: 'Booters de bouclier de groupe',
