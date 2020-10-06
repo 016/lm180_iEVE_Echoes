@@ -5,17 +5,17 @@ const messages =  {
     titleShort: '<b>i</b>EVE',
     login: 'Entrar',
     signup: 'Registrarse',
-    forgotPass: 'Olvide mi contraseña',
+    forgotPass: 'Olvidé mi contraseña',
     resetPass: 'Resetablecer contraseña',
-    backIndexPage: 'Volver al indice',
+    backIndexPage: 'Volver al índice',
 
-    smsCode: 'codigo SMS',
+    smsCode: 'Código SMS',
     sendSms: 'Enviar SMS',
-    sendEmailCode: 'Enviar codigo por Email',
-    emailCode: 'Codigo de Email',
+    sendEmailCode: 'Enviar código por Email',
+    emailCode: 'Código de Email',
     captcha: 'Captcha',
     locale:{
-      zh: '切换中文',
+      zh: '????',
       en: 'Use English',
     },
     create: 'Crear',
@@ -29,7 +29,7 @@ const messages =  {
     costCharge: '<span>Actualmente, la fase de pruebas es solo por invitacíon. El costo de la publicacion de información se establece en una cantidad relativamente baja y luego se restablecerá a la normalidad. Las cuentas invitadas reciben algo de ISK con propositos de prueba.</span><br/><span>Para evitar Spam, se cobrará una cierta cantidad de ISK por el mensaje publicado y no se podra publicar si el saldo es insuficiente</span><br/><span>[AÚN NO SE HA IMPLEMENTADO]Método de recarga: envíe ISK a través de un contrato de ieve en el juego, agrega `ieve-tú ieve Nombre de cuenta del sitio web`(Para mí\ es ieve-DP, tu nombre de cuenta resgistrada en el sitio web de iEVE es muy importante!!!) in desc part, recargará la cuenta depues de recibir el contrato</span><br/><span>Está prhibido publicar insultos personales, RMT(intercambio de dinero real) o cualquier otro contenido inapropiado. Dicha publicación sera eliminada sin reembolso. La violacion de estas condiciones dara a lugar la prohibición de la cuenta sin reembolso.</span>',
 
     newElement:{
-      title: 'Titulo',
+      title: 'Título',
       desc: 'Descripción'
     },
   },
@@ -39,7 +39,7 @@ const messages =  {
   },
 
   time:{
-    year: "Anio",
+    year: "Año",
     month: "Mes",
     day: "Dia",
     hour: "Hora",
@@ -70,7 +70,7 @@ const messages =  {
   type:{
     partner: {
       person: 'Persona',
-      company: 'Compania'
+      company: 'Compañia'
     },
     sexy: {
       male: 'Hombre',
@@ -98,7 +98,7 @@ const messages =  {
       RechargeInfo: 'Radio de lectura de la nave +100%</br>Velocidad de la nave -80%</br>Tiempo de recarga del capacitor(condensador) -50%',
       DefenseTitle: 'Modo Defensivo',
       DefenseInfo: 'Todos los daños -90%</br>velocidad de vuelo de la nave -80%</br>Radio de lectura de la nave -20%</br>Todas las ressitencias de la nave +50%',
-      PropulsionTitle: 'Modo Propulcion',
+      PropulsionTitle: 'Modo Propulsion',
       PropulsionInfo: 'Tiempo de recarga del capacitor(condensador) de la nave +500%</br>Radio de lectura de la nave +100%</br> Velocidad de la nave +100%',
       SiegeTitle: 'Siege Mode',
       SiegeInfo: 'Velocidad de rastreo de armas -95%</br>Velocidad de exploción de misiles -90%</br>Radio de explosión de misiles +1000%</br>Velocidad de la nave -99%</br>Radio de lectura de la nave +100%</br> Todos los daños +100%',
@@ -181,12 +181,12 @@ const messages =  {
         }
       },
       mining: {
-        title:'Equipo de Mineria(Equipo de Recogida)',
+        title:'Equipo de Minería(Equipo de Recogida)',
         ckjg:'Laser Minero',
         ltck:'Minero a cielo abierto',
       },
       liejie: {
-        title: 'Decomponedores',
+        title: 'Descomponedores',
         jl:{
           s: 'Descomponedores por Corriente Pequeños',
           m: 'Descomponedores por corriente Medianos',
@@ -211,24 +211,24 @@ const messages =  {
         title: 'Drones Grandes '
       },
       sen: { 
-        title: 'Drones sentinela'
+        title: 'Drones Centinela'
       },
     },
 
     slotMid:{
       ewar: {
-        title: 'Guerra Electronica',
+        title: 'Guerra Electrónica',
         tzcr:'Redificador de Estasis',
         tzbz:'Stasis Grappler',
-        yqrd:'Disrruptores de Salto',
+        yqrd:'Disruptores de Salto',
         yqrp:'Codificador de Salto',
       },
       ln: {
-        title: ' Nosferatus de Energia ',
+        title: 'Nosferatus de Energia ',
         s: 'Nosferatu de Energia Pequeños',
         m: 'Nosferatu de Energia Medianos',
         l: 'Nosferatu de Energia Grandes',
-        xl: 'Nosferatu de Energia Extra greandes',
+        xl: 'Nosferatu de Energia Extra grandes',
       },
       nlzh: {
         title: 'Neutralziadores de Energia',
@@ -358,7 +358,7 @@ const messages =  {
         sskz:'Control de Daños',
       },
       tjqgl: {
-        title: 'Mejoras de propulción',
+        title: 'Mejoras de propulsión',
         gxwd:'Estabilizadores de inercia',
         yqwd:'Estabilizadores de núcleo de salto',
       },
@@ -667,8 +667,8 @@ const messages =  {
       e_v_1_mid_3: 'Neutralizacion',
       e_v_1_low_13: 'Transferencia de Energia',
       e_v_1_mid_23: 'Transferencia de Energia',
-      e_v_1_mid_31: '减伤比例??',
-      e_v_1_mid_32: '承伤比例??',
+      e_v_1_mid_31: '??????',
+      e_v_1_mid_32: '??????',
 
       e_shield: 'Escudo ',
       e_shield_r: 'Puntos del potenciador de Escudo',
@@ -920,7 +920,7 @@ const messages =  {
       title: 'Resturar contraseña',
       newPass: 'Contraseña',
       email: 'Correo',
-      phone: 'Telefono',
+      phone: 'Teléfono',
 
     },
 
@@ -930,7 +930,7 @@ const messages =  {
     id: '',
     title: 'Nombre',
     phone: 'Telefono',
-    email: 'Correo electronico',
+    email: 'Correo electrónico',
     money: 'Balance En la cuenta',
     username: 'Nombre de Usuario',
     desc: 'Desc',
@@ -1052,7 +1052,7 @@ const messages =  {
     },
 
     shipView:{
-      title: 'Calcuradora de Construcción',
+      title: 'Calculadora de Construcción',
       subTitle: 'Compruebe todos los elementos de construcción de tipo aquí. Descubra cuántos te faltan.',
       usageTitle: 'Uso',
       usageBody: '<ul><li>Por ahora admitimos 4 tipos, intenta cambiarlos!</li><li>Para su información, solo puede construir elementos con el nivel técnico requerido, así que verifique su nivel técnico primero!!</li><li>Seleccione un elemento y configure el "Conteo de Construcción" correcto. El "Resultado" le mostrará los materiales requeridos.</li><li>Escriba cuántos minerales tiene "en mano" y obtendrá un recuento de materiales "faltantes".</li><li>Usamos el precio promedio de la semana pasada para los cálculos de precios. El precio total que indica "Todavia falta" solo incluye los artículos que aún se necesitan, si no necesita este artículo, el precio será 0 en los cálculos</li><li>La "Calculadora de Menas" es una forma rápida de poder revisar cuales son los minerales faltantes en tus construcciones, solo no olvides ajustar tu eficacia de Reprocesamiento.</li><li> Esto es un proyecto personal, todos los datos se ingresan manualmente, así que si encuentra algun dato incorrecto, simplemente reporta el  error. El enlace del informe de error está en el pie de página inferior, gracias. </li><li><a href="https://www.bilibili.com/video/av80449531/" target="_blank">Operation Video in Chinese</a></li></ul>',
@@ -1883,10 +1883,10 @@ const messages =  {
   },
 
   region:{
-    10000001: '德里克',
-    10000002: '伏尔戈',
-    10000016: '长征',
-    10000032: '金纳泽',
+    10000001: '???',
+    10000002: '???',
+    10000016: '??',
+    10000032: '???',
   }
 }
 
