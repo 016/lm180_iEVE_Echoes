@@ -14,10 +14,6 @@ const messages =  {
     sendEmailCode: 'Envoyer un Code',
     emailCode: 'Code Email',
     captcha: 'Captcha',
-    locale:{
-      zh: '切换中文',
-      en: 'Use English',
-    },
     create: 'Créer',
     update: 'Editer',
     view: 'Voir',
@@ -885,8 +881,15 @@ const messages =  {
     },
     devPlan:{
       title: 'Plan Dev',
-      subTitle: '202008 Plan de collecte de données',
-      body:'<ul><li class="text-green">[Terminé] Données de matériau de recherche de plan de vaisseau</li><li class="text-green">[Terminé] Données du raffinage des minerais</li><li class= "text-green">[Terminé] Données du raffinage des débris de vaisseau</li><li class="text-green">[Terminé] Données de matériau pour la construction de vaisseau</li><li class="text-green">[Terminé] Données de matériau pour la construction des modules d\'optimisation</li><li class="text-green">[Terminé] Données de sortie des resources planétaires (Ces données sont très volumineuses et demandent plus de temps)</li><li class="text-green ">[Terminé] Informations des attributs de vaisseau pour la configuration des vaisseaux</li><li class="text-green">[Terminé] Données des attributs des équpements utilisées pour la configuration des vaisseaux</li></ul>',
+      202010:{
+        subTitle: '202010 v2.0 Dev Plan',
+        body:'<ul><li class="text-muted">[Not Start] Existing calculators updated and upgraded, based on user feedback to make the operation suit user habits</li><li class="text-muted">[Not Start] New equipment decomposition calculator, to quickly search the materials obtained from equipment decomposition</li><li class="text-muted">[Not Start] New Corporation Module, the Corporation Module will be a cool module, which will make every corporation administrator loves it.</li><li class="text-muted">[Not Start] New KB (iKillBoard) Module makes PVP become popular! Makes technology become popular! Makes operation become popular! </li ><li class="text-muted">[Not Start] Fully enable Offline Market Module, one more option for out-game transaction, leave a message on ieve, you can find buyers/sellers.</li><li class ="text-muted">[Not Start] New Online Market Module, online real-time prices, historical price cache, price trend prediction, market transaction decisions, etc.</li><li class="text-muted">[Not Start] The upgraded version of the Ship Config Module, complete all the unfinished functions in v1.0, add some new ideas</li><li class="text-muted">[Not Start] Multi-module cross link iKillBoard, online market, Corporation, and Ship Config, it will definitely be a cool experience!</li><li class="text-muted">[Not Start] A richer user system</li></ul>',
+      },
+      202008:{      
+        subTitle: '202008 Plan de collecte de données',
+        body:'<ul><li class="text-green">[Terminé] Données de matériau de recherche de plan de vaisseau</li><li class="text-green">[Terminé] Données du raffinage des minerais</li><li class= "text-green">[Terminé] Données du raffinage des débris de vaisseau</li><li class="text-green">[Terminé] Données de matériau pour la construction de vaisseau</li><li class="text-green">[Terminé] Données de matériau pour la construction des modules d\'optimisation</li><li class="text-green">[Terminé] Données de sortie des resources planétaires (Ces données sont très volumineuses et demandent plus de temps)</li><li class="text-green ">[Terminé] Informations des attributs de vaisseau pour la configuration des vaisseaux</li><li class="text-green">[Terminé] Données des attributs des équpements utilisées pour la configuration des vaisseaux</li></ul>',
+      }
+
     },
 
     login:{
@@ -997,7 +1000,7 @@ const messages =  {
       welcome: {
         title: 'Bienvenue sur iEve la Tool Box en ligne de Eve Echoes',
         subTitle: 'Vous pouvez trouver des outils de Eve Echoes en ligne ici.',        
-        body: '<p class="text ">Après un mois de travail, les données de base ont été ajoutées, et plus de fonctions seront rajoutées dans le future. Je vous souhaite le meilleur. Vous êtes les bienvenues pour partager vos suggestions. </p>',
+        body: '<p class="text ">The development of version 2.0 has started, these new features will be seen in the next few months.</p>',
       },
 
     },
@@ -1269,7 +1272,7 @@ const messages =  {
       usageTitle: 'Usage',
       usageBody: '<ul><li> Cliquez "+ Nouveau Minerai" pour ajouter un nouveau minerai et la quantité</li><li>C\'est utilisé pour plus qu\'un seul type de minerai, utile pour les vaisseaux tel que le Retriever</li><li>L\'unité de raffinage des minerais est de 100, ex. 199 ne fera que raffiner 100, laissant 99 restants.</li><li>En raison des points décimaux, vous pouvez obtenir 1-2 écarts calculés dans le résultat. Par exemple si le résultat est 135, mais dans le jeu, c\'est 134</li><li>C\'est un projet personnel toutes les données sont ajoutées manuellement, donc si vous trouver quelque chose de faux, signalez le bug. Le lien du rapport de bug se trouve dans le pied de page, thx.</li></ul>',
       result:{
-        title: 'Résultat',
+        title: 'Multi Minerais Résultat',
 
 
         table:{

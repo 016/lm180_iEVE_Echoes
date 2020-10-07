@@ -14,10 +14,6 @@ const messages =  {
     sendEmailCode: '发送验证码',
     emailCode: '邮件验证码',
     captcha: '验证码',
-    locale:{
-      zh: '切换中文',
-      en: 'Use English',
-    },
     create: '新建',
     update: '编辑',
     view: '查看',
@@ -885,8 +881,14 @@ const messages =  {
     },
     devPlan:{
       title: '开发计划',
-      subTitle: '202007测试数据更新计划表',
-      body:'<ul><li class="text-green">[完成]逆向蓝图所需材料数据</li><li class="text-green">[完成]矿石熔炼数据</li><li class="text-green">[完成]舰船碎片提炼数据</li><li class="text-green">[完成]造船所需材料数据</li><li class="text-green">[完成]改装件制造所需材料数据</li><li>[未启动]行星资源产出数据(这个数据量很大需要较多时间)</li><li class="text-green">[完成]配船用到的舰船属性数据</li><li class="text-green">[完成]配船用到的装备属性数据</li></ul>',
+      202010:{
+        subTitle: '202010 v2.0 开发计划',
+        body:'<ul><li class="text-muted">[未开始]现有计算器更新、升级, 基于用户反馈让操作更符合用户习惯</li><li class="text-muted">[未开始]全新装备分解计算器, 快速查询装备分解所得材料</li><li class="text-muted">[未开始]全新的军团模块, 军团模块会是一个很酷的模块, 会让每一位军团管理者爱不释手</li><li class="text-muted">[未开始]全新的KB(iKillBoard)模块, 让PVP流行起来! 让技术流行起来! 让操作流行起来! </li><li class="text-muted">[未开始]全面启用离线交易模块, 多一种游戏外交易方式, 来ieve发个信息, 就能找到买家/卖家.</li><li class="text-muted">[未开始]全新的在线市场模块, 在线实时价格, 历史价格缓存, 价格趋势预判, 市场交易决策等</li><li class="text-muted">[未开始]升级版配船模块, 完成1.0未完成的全部功能, 同时添加一些新想法</li><li class="text-muted">[未开始]多模块联动 iKillBoard, 在线市场, 军团, 配船, 一定会是一个很酷的体验!</li><li class="text-muted">[未开始]更丰富的用户系统</li></ul>',
+      },
+      202008:{
+        subTitle: '202008数据更新计划表',
+        body:'<ul><li class="text-green">[完成]逆向蓝图所需材料数据</li><li class="text-green">[完成]矿石熔炼数据</li><li class="text-green">[完成]舰船碎片提炼数据</li><li class="text-green">[完成]造船所需材料数据</li><li class="text-green">[完成]改装件制造所需材料数据</li><li class="text-green">[完成]行星资源产出数据(这个数据量很大需要较多时间)</li><li class="text-green">[完成]配船用到的舰船属性数据</li><li class="text-green">[完成]配船用到的装备属性数据</li></ul>',
+      },
     },
 
     login:{
@@ -997,7 +999,7 @@ const messages =  {
       welcome: {
         title: '欢迎来到 iEVE EVE手游在线工具箱',
         subTitle: '这里提供多种EVE手游在线辅助工具',        
-        body: '<p class="text text-green">20200813服务器正式开启, 祝各位一切顺利. 我们正在完善各种数据, 详情请看下面的开发计划 </p><p>很多数据的更新需要在服务器开启后进行, 我们的志愿者已经准备好了.</p>',
+        body: '<p class="text">2.0版本相关开发工作已经开始, 这些新功能会在未来几个月和大家见面. </p>',
       },
 
     },
@@ -1114,7 +1116,7 @@ const messages =  {
 
         table:{
           title:{
-            item: '原矿名称',
+            item: '矿名称',
             stillNeed: '缺少',
             oreSuggest: '原矿建议',
           },
@@ -1269,7 +1271,7 @@ const messages =  {
       usageTitle: '使用说明',
       usageBody: '<ul><li>点击"+ 新原矿提炼" 可以增加原矿数量进行复合计算</li><li>在体验了回旋者那种随机挖矿之后, 我发现之前的单一原矿提炼计算器无法应付这个场景, 所以我增加了这么一个多种原矿复合计算器, 应该可以很好的解决问题</li><li>计算结果以1为单位, 但是在提炼的时候依然是小于100不会提炼, 请知晓</li><li>因为有小数点, 在多次转换计算中会出现1-2个单位的偏差, 比如计算结果为135,游戏内显示134, 作为参考影响不大,但请知晓</li><li>所有数据均为手工输入,若发现错误, 请提交一个bug方便修复谢谢, bug提交连接在最下面的页脚部分</li></ul>',
       result:{
-        title: '计算结果',
+        title: '多种原矿计算结果',
 
 
         table:{

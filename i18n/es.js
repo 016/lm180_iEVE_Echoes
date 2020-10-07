@@ -14,10 +14,6 @@ const messages =  {
     sendEmailCode: 'Enviar código por Email',
     emailCode: 'Código de Email',
     captcha: 'Captcha',
-    locale:{
-      zh: '????',
-      en: 'Use English',
-    },
     create: 'Crear',
     update: 'Editar',
     view: 'Examinar',
@@ -886,8 +882,14 @@ const messages =  {
     },
     devPlan:{
       title: 'Dev Plan',
-      subTitle: '202008 Data Collect Plan',
-      body:'<ul><li class="text-green">[Complete]Datos de material de investigacion para planos de naves</li><li class="text-green">[Complete] Datos de Refineria de Mena</li><li class= "text-green">[Complete] Datos de Refineria de restos de Naves</li><li class="text-green">[Complete]Datos de Material de Construcción de Naves</li><li class="text-green">[Complete]Datos de Material de Construcción de Modificadores</li><li class="text-green">[Complete] Datos de Recursos Planetarios(Estos Datos son muy Extensos y requieren mas tiempo)</li><li class="text-green ">[Complete]Datos de Atributos de Nave para aplicar en configuración</li><li class="text-green">[Complete] Datos de Atributos de Equipamiento Utilizados para la configuracion de la nave</li></ul>',
+      202010:{
+        subTitle: '202010 v2.0 Dev Plan',
+        body:'<ul><li class="text-muted">[Not Start] Existing calculators updated and upgraded, based on user feedback to make the operation suit user habits</li><li class="text-muted">[Not Start] New equipment decomposition calculator, to quickly search the materials obtained from equipment decomposition</li><li class="text-muted">[Not Start] New Corporation Module, the Corporation Module will be a cool module, which will make every corporation administrator loves it.</li><li class="text-muted">[Not Start] New KB (iKillBoard) Module makes PVP become popular! Makes technology become popular! Makes operation become popular! </li ><li class="text-muted">[Not Start] Fully enable Offline Market Module, one more option for out-game transaction, leave a message on ieve, you can find buyers/sellers.</li><li class ="text-muted">[Not Start] New Online Market Module, online real-time prices, historical price cache, price trend prediction, market transaction decisions, etc.</li><li class="text-muted">[Not Start] The upgraded version of the Ship Config Module, complete all the unfinished functions in v1.0, add some new ideas</li><li class="text-muted">[Not Start] Multi-module cross link iKillBoard, online market, Corporation, and Ship Config, it will definitely be a cool experience!</li><li class="text-muted">[Not Start] A richer user system</li></ul>',
+      },
+      202008:{
+        subTitle: '202008 Data Collect Plan',
+        body:'<ul><li class="text-green">[Complete]Datos de material de investigacion para planos de naves</li><li class="text-green">[Complete] Datos de Refineria de Mena</li><li class= "text-green">[Complete] Datos de Refineria de restos de Naves</li><li class="text-green">[Complete]Datos de Material de Construcción de Naves</li><li class="text-green">[Complete]Datos de Material de Construcción de Modificadores</li><li class="text-green">[Complete] Datos de Recursos Planetarios(Estos Datos son muy Extensos y requieren mas tiempo)</li><li class="text-green ">[Complete]Datos de Atributos de Nave para aplicar en configuración</li><li class="text-green">[Complete] Datos de Atributos de Equipamiento Utilizados para la configuracion de la nave</li></ul>',
+      }
     },
 
     login:{
@@ -998,7 +1000,7 @@ const messages =  {
       welcome: {
         title: 'Bienvenido a iEVE La pagina de Herramientas en linea de EVE Echoes',
         subTitle: 'You can find Puedes Buscar las herramientas de EVE Echoes\'s Aquí.',        
-        body: '<p class="text ">Despues de un mes en trabajar la informacion,Los datos basicos funcionan y han sido completados, y se añadirán más funciones en el futuro. Les deseo todo lo mejor. Las sugerencias para la pagina son bienbenidas. </p>',
+        body: '<p class="text ">The development of version 2.0 has started, these new features will be seen in the next few months.</p>',
       },
 
     },
@@ -1115,7 +1117,7 @@ const messages =  {
 
         table:{
           title:{
-            item: 'Nombre de Mena',
+            item: 'Mineral Name',
             stillNeed: 'Cantidad faltante',
             oreSuggest: 'Sugerencia de mena',
           },
@@ -1270,7 +1272,7 @@ const messages =  {
       usageTitle: 'Usage',
       usageBody: '<ul><li> Click "+ New Ore" to add new a new ore and quantity</li><li>It\'s used for more than one ore type, useful for ships like the Retriever</li><li>The ore refining unit is 100, e.g. 199 will only refine 100, leaving 99 remaining.</li><li>Debido a los puntos decimales, puede obtener 1-2 desviaciones calculadas en el resultado. Por ejemplo, si el resultado es 135,  en el juego es 134</li><li>Esto es un proyecto personal y todos los datos son ingresados manualmente, si encuentras algun error ayudanos a reprotarlos el enlace de reporte de erroes esta en la esquina inferior, gracias..</li></ul>',
       result:{
-        title: 'Resultado',
+        title: 'Mix Mena Resultado',
 
 
         table:{
@@ -1883,10 +1885,10 @@ const messages =  {
   },
 
   region:{
-    10000001: '???',
-    10000002: '???',
-    10000016: '??',
-    10000032: '???',
+    10000001: '德里克',
+    10000002: '伏尔戈',
+    10000016: '长征',
+    10000032: '金纳泽',
   }
 }
 

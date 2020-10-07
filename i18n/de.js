@@ -14,10 +14,6 @@ const messages =  {
     sendEmailCode: 'Code senden',
     emailCode: 'Email Code',
     captcha: 'Captcha',
-    locale:{
-      zh: '切换中文',
-      en: 'Use English',
-    },
     create: 'Erstellen',
     update: 'Bearbeiten',
     view: 'Anzeigen',
@@ -885,8 +881,15 @@ const messages =  {
     },
     devPlan:{
       title: 'Entwicklerpläne',
-      subTitle: '202007 Finally Test Data Collect Plan',
-      body:'<ul><li class="text-green">[Complete] Ship Blueprint research material data</li><li class="text-green">[Complete] Ore refining data</li><li class= "text-green">[Complete] Vessel Debris Refining Data</li><li class="text-green">[Complete] Ship building material data</li><li class="text-green">[Complete] Rig building material data</li><li>[Not started] Planetary resource output data (this data is very large and requires more time)</li><li class="text-green ">[Complete] Ship attribute data used for ship config</li><li class="text-green">[Complete] Equipment attribute data used for ship config</li></ul>',
+      202010:{
+        subTitle: '202010 v2.0 Dev Plan',
+        body:'<ul><li class="text-muted">[Not Start] Existing calculators updated and upgraded, based on user feedback to make the operation suit user habits</li><li class="text-muted">[Not Start] New equipment decomposition calculator, to quickly search the materials obtained from equipment decomposition</li><li class="text-muted">[Not Start] New Corporation Module, the Corporation Module will be a cool module, which will make every corporation administrator loves it.</li><li class="text-muted">[Not Start] New KB (iKillBoard) Module makes PVP become popular! Makes technology become popular! Makes operation become popular! </li ><li class="text-muted">[Not Start] Fully enable Offline Market Module, one more option for out-game transaction, leave a message on ieve, you can find buyers/sellers.</li><li class ="text-muted">[Not Start] New Online Market Module, online real-time prices, historical price cache, price trend prediction, market transaction decisions, etc.</li><li class="text-muted">[Not Start] The upgraded version of the Ship Config Module, complete all the unfinished functions in v1.0, add some new ideas</li><li class="text-muted">[Not Start] Multi-module cross link iKillBoard, online market, Corporation, and Ship Config, it will definitely be a cool experience!</li><li class="text-muted">[Not Start] A richer user system</li></ul>',
+      },
+      202008:{
+        subTitle: '202008 Data Collect Plan',
+        body:'<ul><li class="text-green">[Complete] Ship Blueprint research material data</li><li class="text-green">[Complete] Ore refining data</li><li class= "text-green">[Complete] Vessel Debris Refining Data</li><li class="text-green">[Complete] Ship building material data</li><li class="text-green">[Complete] Rig building material data</li><li class="text-green">[Complete] Planetary resource output data (this data is very large and requires more time)</li><li class="text-green ">[Complete] Ship attribute data used for ship config</li><li class="text-green">[Complete] Equipment attribute data used for ship config</li></ul>',        
+      },
+
     },
 
     login:{
@@ -997,7 +1000,7 @@ const messages =  {
       welcome: {
         title: 'Willkommen bei iEVE, der EVE Echoes Online-Tools Seite',
         subTitle: 'Hier findest du die EVE Echoes\'s Online-Tools.',        
-        body: '<p class="text text-green">20200813 server is officially opened, I wish you all the best. We are improving various data, please see the development plan below for details</p><p>Many data updates need to be performed after the server is turned on, and our volunteers are ready.</p>',
+        body: '<p class="text ">The development of version 2.0 has started, these new features will be seen in the next few months.</p>',
       },
 
     },
@@ -1114,7 +1117,7 @@ const messages =  {
 
         table:{
           title:{
-            item: 'Name des Erzes',
+            item: 'Mineral Name',
             stillNeed: 'noch benötigt',
             oreSuggest: 'Empfohlene Erze',
           },
@@ -1269,7 +1272,7 @@ const messages =  {
       usageTitle: 'Anleitung',
       usageBody: '<ul><li> Click "+ New Ore" to add new a new ore and quantity</li><li>It\'s used for more than one ore type, useful for ships like the Retriever</li><li>The ore refining unit is 100, e.g. 199 will only refine 100, leaving 99 remaining.</li><li>Because of decimal points, you may get 1-2 calculated deviation in the result. For example if the result is 135, but in game it\'s 134</li><li>It\'s a personal project all data is manually entered, so if you find anything wrong, just report a bug. The bug report link is in the bottom footer, thx.</li></ul>',
       result:{
-        title: 'Ergebnis',
+        title: 'Verschiedener Erze Ergebnis',
 
 
         table:{
@@ -1327,7 +1330,7 @@ const messages =  {
 
           option:{
             showItemPrice: 'Zeige Detailpreis',
-            showSumPrice: 'Zeige Gesamtwert,
+            showSumPrice: 'Zeige Gesamtwert',
           }
         }
       }
