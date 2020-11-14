@@ -31,9 +31,9 @@ const messages =  {
 
     status:{
       save_0: '',
-      save_1: '<span class="text-yellow">保存中 .... </span>',
-      save_9: '<span class="text-red">保存失败! </span>',
-      save_100: '<span class="text-green">保存成功! </span>',
+      save_1: '<span class="text-yellow">Saving .... </span>',
+      save_9: '<span class="text-red">Failed! </span>',
+      save_100: '<span class="text-green">Succeed! </span>',
     },
   },
 
@@ -45,44 +45,44 @@ const messages =  {
     scoreTitle: 'ip',
     role:{
       cm_role_1: 'CEO',
-      cm_role_10: '管理员',
-      cm_role_20: '舰队长',
-      cm_role_100: '普通成员',
+      cm_role_10: 'Administrator',
+      cm_role_20: 'Fleet Commander',
+      cm_role_100: 'Fleet Member',
     },
     memberStatus:{
-      cm_status_1: '申请中',
-      cm_status_9: '已拒绝',
-      cm_status_100: '已通过',
+      cm_status_1: 'Applied',
+      cm_status_9: 'Rejected',
+      cm_status_100: 'Accepted',
     },
     memberScoreType:{
-      cmsl_type_1: '管理员-调整',
-      cmsl_type_5: '管理员-转账',
-      cmsl_type_7: '管理员-购物',
-      cmsl_type_21: '军团事件',
-      cmsl_type_61: '转账-出',
-      cmsl_type_63: '转账-入',
-      cmsl_type_65: '购物',
+      cmsl_type_1: 'Admin-Adjust',
+      cmsl_type_5: 'Admin-Transfer',
+      cmsl_type_7: 'Admin-Order',
+      cmsl_type_21: 'Corp Event',
+      cmsl_type_61: 'Outgoing Transfer',
+      cmsl_type_63: 'Incoming Transfer',
+      cmsl_type_65: 'Order',
     },
     eventType:{
       ce_type_1: 'PVE',
       ce_type_31: 'PVP',
-      ce_type_71: '制造',
-      ce_type_91: '其他',
+      ce_type_71: 'Indy',
+      ce_type_91: 'Others',
     },
     eventStatus:{
-      ce_status_1: '草稿',
-      ce_status_5: '隐藏',
-      ce_status_9: '待审核',
-      ce_status_11: '已审核',
-      ce_status_100: '完成',
+      ce_status_1: 'Draft',
+      ce_status_5: 'Hidden',
+      ce_status_9: 'Wait for approve',
+      ce_status_11: 'Approved',
+      ce_status_100: 'Done',
     },
     getMethod:{
-      getMethod_1 : '积分',
+      getMethod_1 : 'Credits',
       getMethod_11 : 'ISK',
     },
     cecmStatus:{
-      status_1 : '未完成',
-      status_100 : '已完成',
+      status_1 : 'Incompleted',
+      status_100 : 'Completed',
     },
   },
 
@@ -110,7 +110,7 @@ const messages =  {
     cancel: 'Cancel',
     close: 'Close',
     newLink: 'New Link',
-    refresh: '刷新',
+    refresh: 'Refresh',
   },
 
   status:{
@@ -695,11 +695,11 @@ const messages =  {
 
   globalItem:{
     type:{
-      t_1 : '船',
-      t_3 : '装备',
-      t_11 : '资源',
-      t_13 : '蓝图',
-      t_100 : '其他',
+      t_1 : 'Ships',
+      t_3 : 'Modules',
+      t_11 : 'Resources',
+      t_13 : 'Blueprints',
+      t_100 : 'Others',
     },
   },
 
@@ -725,8 +725,8 @@ const messages =  {
       e_v_1_mid_3: 'Neutralization',
       e_v_1_low_13: 'Energy transfer',
       e_v_1_mid_23: 'Energy transfer',
-      e_v_1_mid_31: '减伤比例',
-      e_v_1_mid_32: '承伤比例',
+      e_v_1_mid_31: 'Damage Reduction Ratio',
+      e_v_1_mid_32: 'Damage Taken Ratio',
 
       e_shield: 'Shield ',
       e_shield_r: 'Shield Boost Amount',
@@ -1039,8 +1039,8 @@ const messages =  {
 
       market: 'Market',
 
-      corp: '军团',
-      pubCorp: '军团列表',
+      corp: 'Corp',
+      pubCorp: 'Corp list',
 
       siteElement: 'Site Element',
 
@@ -1057,7 +1057,7 @@ const messages =  {
 
       myTopic: 'My Topic',
 
-      myCorp: '我的军团',
+      myCorp: 'My Corp',
     },
     dashboard:{
       title: 'Dashboard',
@@ -1952,322 +1952,322 @@ const messages =  {
 
     ////Corp
     pubCorpListView:{
-      title: '军团列表',
-      subTitle: '所有系统中存在的军团列表, 可以在这里新建军团',
+      title: 'Corp list',
+      subTitle: 'Create your own corp here',
       table:{
         title:{         
           co_id: 'ID',
-          co_title: '名称',
+          co_title: 'Name',
           co_code: 'Code',
-          co_shortDesc: '简介',
-          co_cnt_member: '成员数量',
-          co_cnt_km: 'KM统计(周/月/总)',
-          co_creationDate: '创建时间',
+          co_shortDesc: 'Description',
+          co_cnt_member: 'number of members',
+          co_cnt_km: 'KM statistics(Week/Month/Total)',
+          co_creationDate: 'Created time',
         }
       }
     },
     corpFormModal:{
       modal:{
-        co_title: '名称',
-        co_title_hint: '不可为空, 不可重复, 长度不超过45',
+        co_title: 'Name',
+        co_title_hint: 'less than 45 characters, cannot be empty',
         co_code: 'Code',
-        co_code_hint: '不可为空, 不可重复, 长度不超过10',
-        co_rate_iskScore: '1积分需',
-        co_rate_iskScore_hint: '1代表1ISK换1积分即ISK和积分对等, 若需要将积分和plex挂钩, 则需将plex价格填入, 详见军团事件模块',
-        co_shortDesc: '简介',
-        co_shortDesc_hint: '长度不超过500',
-        co_kmUri: 'KM授权URI',
-        co_kmUri_hint: '官方API的军团KM获取地址, ieve每小时获取并更新一次军团KM数据',
-        co_desc: '介绍',
-        co_desc_hint: '长度不超过2000',
-        co_notice: '公告',
-        co_notice_hint: '长度不超过2000',
+        co_code_hint: 'less than 10 characters, cannot be empty',
+        co_rate_iskScore: '1 credit equals to',
+        co_rate_iskScore_hint: '"1" means 1 credit equals to 1 ISK; Details are in corp event module',
+        co_shortDesc: 'Description',
+        co_shortDesc_hint: 'less than 500 characters',
+        co_kmUri: 'KM URL',
+        co_kmUri_hint: 'Official API for Corp KM, updates every hour',
+        co_desc: 'Description',
+        co_desc_hint: 'less than 2000 characters',
+        co_notice: 'Annoucement',
+        co_notice_hint: 'less than 2000 characters',
       },
     },
     corpApplyModal:{
       modal:{
-        title: '加入军团',
-        joining: '<span class=\"fa fa-circle-o-notch text-yellow\"></span> 正在提交军团加入申请, 请稍等 ......',
-        join_fail: '<span class=\"fa fa-close text-red\"></span> 军团加入申请已存在, 无需重复提交 , 通过我的军团查看',
-        join_success: '<span class=\"fa fa-check text-green\"></span> 军团加入申请已提交 , 通过我的军团查看',
+        title: 'Join Corp',
+        joining: '<span class=\"fa fa-circle-o-notch text-yellow\"></span> Applicaiton submitted, please wait ......',
+        join_fail: '<span class=\"fa fa-close text-red\"></span> Application exists, view in my corp',
+        join_success: '<span class=\"fa fa-check text-green\"></span> Applicaiton submitted , view in my corp',
       },
     },
     pubCorpDetailView:{
-      title: '军团详情',
+      title: 'Corp Details',
       subTitle: '',
       corpInfo:{
-        title: '军团资料',
+        title: 'Corp Info',
 
         co_id: 'ID',
-        co_title: '名称',
+        co_title: 'Name',
         co_code: 'Code',
-        co_desc: '介绍',
-        co_cnt_member: '成员数量',
-        co_cnt_km: 'KM统计(周/月/总)',
+        co_desc: 'Description',
+        co_cnt_member: 'number of members',
+        co_cnt_km: 'KM Statistics(Week/Month/Total)',
 
 
       },
       manageInfo:{
-        title: '管理团队',
+        title: 'Managing Team',
       },
       historyList:{
-        title: '军团历史',
+        title: 'Corp history',
       },
       kmInfo:{
-        title: 'KM数据',
+        title: 'KM statistics',
       },
     },
 
 
     myCorpListView:{
-      title: '我的军团列表',
-      subTitle: '所有我加入的军团列表',
+      title: 'My corp list',
+      subTitle: 'All corps in my list',
       table:{
         title:{         
           co_id: 'ID',
-          co_title: '名称',
+          co_title: 'Name',
           co_code: 'Code',
-          co_shortDesc: '简介',
-          co_cnt_member: '成员数量',
-          co_cnt_km: 'KM统计(周/月/总)',
-          co_creationDate: '创建时间',
-          cm_creationDate: '加入时间',
-          cm_role: '身份',
+          co_shortDesc: 'Description',
+          co_cnt_member: 'Number of members',
+          co_cnt_km: 'KM Statistics(Week/Month/Total)',
+          co_creationDate: 'Created time',
+          cm_creationDate: 'Joined time',
+          cm_role: 'Role',
         }
       }
     },
 
     corpDetailView:{
-      title: '军团详情',
+      title: 'Corp Detail',
       subTitle: '',
       corpInfo:{
-        title: '军团资料',
+        title: 'Corp Info',
 
         co_id: 'ID',
-        co_title: '名称',
+        co_title: 'Name',
         co_code: 'Code',
-        co_rate_iskScore: 'ISK兑换积分比例',
-        co_desc: '介绍',
-        co_cnt_member: '成员数量',
-        co_cnt_km: 'KM统计(周/月/总)',
+        co_rate_iskScore: 'Creadit to ISK ratio',
+        co_desc: 'Description',
+        co_cnt_member: 'Number of members',
+        co_cnt_km: 'KM Statistics(Week/Month/Total)',
 
 
       },
       noticeMsg:{
-        title: '军团公告',
+        title: 'Corp Annoucement',
       },
       manageInfo:{
-        title: '管理团队',
+        title: 'Managing Team',
       },
       historyList:{
-        title: '军团历史',
+        title: 'Corp History',
       },
       kmInfo:{
-        title: 'KM数据',
+        title: 'KM Statistics',
       },
     },
 
     corpMemberListView:{
-      title: '军团成员',
-      subTitle: '当前军团成员列表',
+      title: 'Corp Members',
+      subTitle: 'Corp Member List',
       table:{
         title:{         
           cm_id: 'ID',
-          cm_title: '名称',
-          cm_score: '积分',
-          cm_creationDate: '加入时间',
-          cm_role: '身份',
-          cm_status: '状态',
+          cm_title: 'Name',
+          cm_score: 'Credits',
+          cm_creationDate: 'Join Time',
+          cm_role: 'Role',
+          cm_status: 'Status',
         }
       }
     },
 
     corpMemberFormModal:{
       modal:{
-        cm_account_id: 'ieve帐号ID',
-        cm_account_id_hint: '可以为空，填写ieve网站注册帐号id后即和该帐号绑定! 请小心!!',
-        cm_title: '名称',
-        cm_title_hint: '长度不超过100',
-        cm_desc: '介绍',
-        cm_desc_hint: '长度不超过2000',
-        cm_role_id: '角色',
-        cm_status_id: '状态',
+        cm_account_id: 'ieve account',
+        cm_account_id_hint: 'Leave blank if you don\'t have one. Auto binding with ieve account!!',
+        cm_title: 'Name',
+        cm_title_hint: 'Less than 100 characters',
+        cm_desc: 'Description',
+        cm_desc_hint: 'Less than 2000 characters',
+        cm_role_id: 'Role',
+        cm_status_id: 'Status',
       },
     },
 
     corpMemberTransferFormModal:{
       modal:{
-        title: '转账',
-        cmsl_corpMember_id: '支付账户',
-        cmsl_corpMember_id_hint: '不可为空',
-        cmsl_corpMember_id_to: '接收账户',
-        cmsl_corpMember_id_to_hint: '不可为空, 不可使用支付账户作为接收账户',
-        cmsl_desc: '说明',
-        cmsl_desc_hint: '长度不超过2000',
-        cmsl_score: '转账积分',
-        cmsl_score_hint: '不可为空',
-        successMsg: '<span class=\"fa fa-check text-green\"></span> 转账成功, 页面数据已刷新',
+        title: 'Transfer',
+        cmsl_corpMember_id: 'Sender Account',
+        cmsl_corpMember_id_hint: 'Can not be blank',
+        cmsl_corpMember_id_to: 'Receiver Account',
+        cmsl_corpMember_id_to_hint: 'Can not be blank',
+        cmsl_desc: 'Description',
+        cmsl_desc_hint: 'Less than 2000 characters',
+        cmsl_score: 'Transfer Credits',
+        cmsl_score_hint: 'Can not be blank',
+        successMsg: '<span class=\"fa fa-check text-green\"></span> Transfer completed, refresh to update',
       },
     },
 
     corpMemberScoreFormModal:{
       modal:{
-        title: '积分调整',
-        cmsl_corpMember_id: '账户',
-        cmsl_corpMember_id_hint: '不可为空',
-        cmsl_desc: '说明',
-        cmsl_desc_hint: '长度不超过2000',
-        cmsl_score: '积分',
-        cmsl_score_hint: '不可为空',
-        successMsg: '<span class=\"fa fa-check text-green\"></span> 调整成功, 页面数据已刷新',
+        title: 'Credit Adjust',
+        cmsl_corpMember_id: 'Account',
+        cmsl_corpMember_id_hint: 'Can not be blank',
+        cmsl_desc: 'Description',
+        cmsl_desc_hint: 'Less than 2000 characters',
+        cmsl_score: 'Creadits',
+        cmsl_score_hint: 'Can not be blank',
+        successMsg: '<span class=\"fa fa-check text-green\"></span> Adjust completed, refresh to update',
       },
     },
 
     corpMemberDetailView:{
-      title: '军团成员详情',
+      title: 'Corp member details',
       subTitle: '',
       corpMemberInfo:{
-        title: '成员资料',
+        title: 'Member Info',
 
         cm_id: 'ID',
-        cm_title: '名称',
-        cm_desc: '介绍',
-        cm_score: '积分',
-        cm_role_id: '角色',
+        cm_title: 'Name',
+        cm_desc: 'Description',
+        cm_score: 'Credits',
+        cm_role_id: 'Role',
 
 
       },
       eventLog:{
-        title: '活动参与记录',
+        title: 'Event History',
       },
       scoreLog:{
-        title: '积分记录',
+        title: 'Credits History',
       },
       kmInfo:{
-        title: 'KM数据',
+        title: 'KM Statistics',
       },
     },
 
     corpEventListView:{
-      title: '军团事件',
-      subTitle: '当前军团事件列表',
+      title: 'Corp Event',
+      subTitle: 'Corp Event Lists',
       table:{
         title:{         
           ce_id: 'ID',
-          ce_title: '名称',
-          ce_eventDate: '事件时间',
-          ce_creationDate: '创建时间',
-          ce_status: '状态',
+          ce_title: 'Name',
+          ce_eventDate: 'Event Time',
+          ce_creationDate: 'Time Created',
+          ce_status: 'Status',
         }
       }
     },
 
     corpEventFormModal:{
       modal:{
-        title: '新建军团事件',
-        ce_title: '标题',
-        ce_title_hint: '不可为空',
-        ce_type_id: '类型',
-        ce_type_id_hint: '不可为空',
-        ce_eventDate: '事件时间',
+        title: 'New Corp Event',
+        ce_title: 'Title',
+        ce_title_hint: 'Can not be blank',
+        ce_type_id: 'Type',
+        ce_type_id_hint: 'Can not be blank',
+        ce_eventDate: 'Event Time',
         ce_eventDate_hint: '',
-        ce_desc: '说明',
-        ce_desc_hint: '长度不超过2000',
-        ce_status_id: '状态',
-        ce_status_id_hint: '不可为空',
+        ce_desc: 'Description',
+        ce_desc_hint: 'Less than 2000 characters',
+        ce_status_id: 'Status',
+        ce_status_id_hint: 'Can not be blank',
       },
     },
 
     corpEventEditView:{
-      title: '编辑军团事件',
-      subTitle: '参数设置后需要点保存才生效, 所以一定记得点保存',
+      title: 'Edit Corp Event',
+      subTitle: 'Valid after click "Save"',
 
       corpEventAttr:{
-        ce_title: '标题',
-        ce_code: '分享链接',
-        ce_title_hint: '不可为空',
-        ce_type_id: '类型',
-        ce_type_id_hint: '不可为空',
-        ce_eventDate: '事件时间',
+        ce_title: 'Title',
+        ce_code: 'Share Link',
+        ce_title_hint: 'Can not be blank',
+        ce_type_id: 'Type',
+        ce_type_id_hint: 'Can not be blank',
+        ce_eventDate: 'Event Time',
         ce_eventDate_hint: '',
-        ce_desc: '说明',
-        ce_desc_hint: '长度不超过2000',
-        ce_status_id: '状态',
-        ce_status_id_hint: '不可为空',      
-        ce_startDate: '开始时间',
-        ce_endDate: '结束时间',
-        ce_isk_extra: '附加ISK',
-        ce_isk_sum: '总价ISK',
-        ce_rate_iskShare: '分配比例',
-        ce_isk_share: '分配ISK',
-        ce_rate_iskScore: '1积分兑换',
-        ce_score_share: '分配积分',
+        ce_desc: 'Description',
+        ce_desc_hint: 'Less than 2000 characters',
+        ce_status_id: 'Status',
+        ce_status_id_hint: 'Can not be blank',      
+        ce_startDate: 'Start Time',
+        ce_endDate: 'Finish Time',
+        ce_isk_extra: 'Extra ISK',
+        ce_isk_sum: 'Total ISK',
+        ce_rate_iskShare: 'ISK Ratio',
+        ce_isk_share: 'Assign SK',
+        ce_rate_iskScore: '1 credit equals',
+        ce_score_share: 'Assign Credits',
       },
 
       basicSection:{
-        title: '基础参数',
+        title: 'Basic Parameters',
       },
       advSection:{
-        title: '进阶参数',
+        title: 'Advanced Parameters',
       },
       itemSection:{
-        title: '资源设置',
+        title: 'Resources Setup',
         table:{
           title:{
-            type: '类型',
-            title: '名称',
-            count: '数量',
-            unitPrice: '单价',
-            sumPrice: '合计',
-            inAllPrice: '总价',
+            type: 'Type',
+            title: 'Name',
+            count: 'Amount',
+            unitPrice: 'Price',
+            sumPrice: 'Sum',
+            inAllPrice: 'Total',
           },
         },
       },
       memberSection:{
-        title: '人员设置',
+        title: 'Member Setup',
         table:{
           title:{
-            cecm_corpMember_id: '姓名',
-            cecm_weight: '权重',
-            cecm_isk_sum: '分配ISK',
-            cecm_isk_cost: '消耗ISK',
-            cecm_isk_get: '入帐ISK',
-            cecm_score_get: '入帐积分',
-            cecm_getMethod_id: '入帐方式',
-            cecm_status_id: '状态',
+            cecm_corpMember_id: 'Name',
+            cecm_weight: 'Weights',
+            cecm_isk_sum: 'Assign ISK',
+            cecm_isk_cost: 'Consume ISK',
+            cecm_isk_get: 'Get ISK',
+            cecm_score_get: 'Get Credits',
+            cecm_getMethod_id: 'Type',
+            cecm_status_id: 'Status',
           },
         },
       },
       exchangeSection:{
-        title: '兑换设置',
-        autoPriceRefresh: '价格自动更新',
+        title: 'Exchange Setup',
+        autoPriceRefresh: 'Price updates automatically',
         table:{
           title:{
-            cecmcei_corpEventCorpMember_id: '人员',
-            cecmcei_corpEventItem_id: '资源',
-            cecmcei_isk_unit: '单价',
-            cecmcei_cnt: '数量',
-            cecmcei_isk_sum: '总价',
-            cecmcei_desc: '描述',
+            cecmcei_corpEventCorpMember_id: 'Members',
+            cecmcei_corpEventItem_id: 'Resources',
+            cecmcei_isk_unit: 'Price',
+            cecmcei_cnt: 'Amounts',
+            cecmcei_isk_sum: 'Total',
+            cecmcei_desc: 'Description',
           },
         },
       },
     },
     corpEventDetailView:{
-      title: '军团事件分享',
-      subTitle: '当前页面开发中, 会在未来几天更新, 内容与编辑军团事件类似,特别注意这里的内容可以通过分享url被任何人查看!',
+      title: 'Share Crop Events',
+      subTitle: 'Under dev., events can be shared via URL links',
     },
 
     corpMemberScoreListTable:{
       title:{
         cmsl_id: 'ID',
-        cmsl_type_id: '类型',
-        cmsl_score: '积分',
-        cmsl_creationDate: '时间',
-        cmsl_desc: '描述',
+        cmsl_type_id: 'Type',
+        cmsl_score: 'Credits',
+        cmsl_creationDate: 'Time',
+        cmsl_desc: 'Description',
       },
       msg:{
-        someTypeCannotDelete: '<span class=\"text-muted\">军团事件和购物类型积分无法直接删除, 请编辑对应模块进删除</span>',
+        someTypeCannotDelete: '<span class=\"text-muted\"> Corp Events and Orders can not be removed here, please edit in the modules</span>',
       },
     },
 
@@ -2276,10 +2276,10 @@ const messages =  {
   },
 
   region:{
-    10000001: '德里克',
-    10000002: '伏尔戈',
-    10000016: '长征',
-    10000032: '金纳泽',
+    10000001: 'Derelik',
+    10000002: 'The Forge',
+    10000016: 'Lonetrek',
+    10000032: 'Sinq Laison',
   }
 }
 
