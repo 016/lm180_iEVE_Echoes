@@ -18,4 +18,4 @@ Right now we only have i18n translate code in the repo for our translators
 * if your language is not in the list, you can contact us to add it, we want support as much languages as we can
 
 
-[Continuous Updating.]
+[Continuous Updating..]
